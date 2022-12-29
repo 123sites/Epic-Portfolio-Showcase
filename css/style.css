@@ -8,6 +8,7 @@
     outline: solid darkgray;
     font-style: sans-serif;
     box-sizing: border-box;
+    padding: 20px;
  }
 
  body {
@@ -65,7 +66,8 @@ div {
 
  a {
    color: yellow;
-   font-size: 25px bold;
+   font-size: 25px;
+   font-weight: bold;
    color: rgba(243, 243, 19, 0.864);
    font-family: sans-serif;
  }
@@ -99,9 +101,9 @@ div {
 
  .my-name {
    background-color: rgb(103, 28, 160);
-   margin: 7px;
-   padding: 7px;
+   -webkit-box-flex: inherit;
    font-family: sans-serif;
+   margin-right: 25px;
 
  }
  .nav-links {
@@ -121,7 +123,11 @@ div {
    flex-wrap: wrap;
    outline: solid darkgray;
    font-family: sans-serif;
+   box-sizing:border-box;
+   flex-direction: row;
+   align-items: center;
  }
+
 
  .subtitle {
    background-image: url(https://tse4.mm.bing.net/th?id=OIP.-yIs2aIdL-qZOrQiJCXBtQAAAA&pid=Api);
