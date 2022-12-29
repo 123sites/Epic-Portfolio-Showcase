@@ -1,0 +1,168 @@
+ header {
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(147, 17, 217);
+    color: #fff;
+    font-size: 35px;
+    text-align: left;
+    display: flex;
+    outline: solid darkgray;
+    font-style: sans-serif;
+    padding: 5px 10px;
+ }
+
+ body {
+   font-style: sans-serif;
+
+ }
+
+ h1 {
+    font-family: sans-serif;
+    font-size: 35px;
+    text-align: left;
+ }
+
+ h2 {
+    font-family: sans-serif;
+    font-size: 35px;
+    text-align: right;
+    flex-flow: unset;
+    display: flex;
+    padding: .5;
+ }
+
+
+ nav {
+   background: rgb(147, 17, 217);
+   font-size: 35px;
+   justify-content:space-between;
+   color: white;
+   cursor: pointer;
+}
+ 
+
+ main {
+   flex-wrap: wrap;
+   margin-top: 2%;
+   background-color: rgb(114, 109, 128);
+ }
+
+ section {
+     font-style: sans-serif;
+     cursor: pointer
+ }
+
+ p {
+
+ }
+
+ a {
+   color: yellow;
+   font-size: 25px;
+   color: rgba(243, 243, 19, 0.864);
+ }
+
+ article {
+
+ }
+
+
+ aside {
+    color: white;
+    background: rgb(147, 17, 217);
+    cursor: pointer
+ }
+
+ input {
+
+ }
+
+ footer {
+
+ }
+
+ .nav-links {
+   margin: 5px;
+   padding: 2px;
+ }
+
+#my-header {
+   justify-content: space-between;
+   background: rgb(147, 17, 217);
+   color: #fff;
+   font-size: 35px;
+   text-align: left;
+   display: flex;
+   flex-wrap: wrap;
+   outline: solid darkgray;
+   font-style: sans-serif;
+ }
+
+ .subtitle {
+   display:inline;
+   
+ }
+
+ .top-right {
+   display: flex;
+   justify-content: space-between;
+   flex-flow: row;
+
+ }
+
+ .side-bar {
+    display: block;
+    justify-content: space-between;
+    padding: 40px;
+    background: black;
+    color: #cde;
+    font-style: sans-serif;
+    box-shadow: 0px 15px 75px yellow;
+    cursor: pointer;
+   }
+
+.about-paragraph {
+   color: white;
+   font-size: 30px;
+   justify-content: right;
+}
+
+ .why {
+     justify-content: space-between;
+     padding: 20px;
+     background: black;
+     color: #cde;
+     box-shadow: 0px 15px 75px yellow;
+     cursor: pointer;
+   }
+ 
+
+ .youtube {
+     display: flex;
+     justify-content: space-between;
+     padding: 60px;
+     background: black;
+     color: white;
+     box-shadow: 0px 15px 75px rgba(166, 168, 171, 0.5);
+     cursor: pointer;
+ }
+
+ .remix{     
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    background: black;
+    color: #fff;
+    box-shadow: 0px 15px 75px rgba(166, 168, 171, 0.5);
+    cursor: pointer;
+ }
+
+ .future {     
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    background: black;
+    color: #fff;
+    box-shadow: 0px 15px 75px rgba(166, 168, 171, 0.5);
+    cursor: pointer;
+ }
