@@ -7,13 +7,12 @@
     display: flex;
     outline: solid darkgray;
     font-style: sans-serif;
-    padding: 5px 10px;
     background: rgb(103, 28, 160);
+    box-sizing: border-box;
  }
 
  body {
    font-style: sans-serif;
-
  }
 
  h1 {
@@ -44,6 +43,9 @@
    margin: 5px;
 }
  
+div {
+   align-content: center;
+}
 
  main {
    flex-wrap: wrap;
@@ -55,28 +57,22 @@
 
  section {
      font-style: sans-serif;
-     cursor: pointer;
      color: rgb(240, 250, 216);
      background: rgb(103, 28, 160);
-
-    }
+ }
 
  p {
    font-family: sans-serif;
    box-shadow: 0px 15px 75px yellow;
+   height: 50;
  }
 
  a {
    color: yellow;
-   font-size: 25px;
+   font-size: 25px bold;
    color: rgba(243, 243, 19, 0.864);
    font-family: sans-serif;
  }
-
- article {
-
- }
-
 
  aside {
     color: rgb(240, 250, 216);
@@ -84,14 +80,31 @@
     cursor: pointer;
  }
 
- input {
 
- }
 
  footer {
    background-image: url(https://images.freecreatives.com/wp-content/uploads/2016/02/High-Res-Purple-Glitter-Background.jpg);
  }
 
+ .about:hover {
+   background-color: silver;
+   box-shadow: 0px 15px 75px yellow;
+ }
+
+ #work:hover {}
+
+ #contact:hover {}
+
+ #resume:hover {}
+
+
+ .my-name {
+   background-color: rgb(103, 28, 160);
+   margin: 7px;
+   padding: 7px;
+   font-family: sans-serif;
+
+ }
  .nav-links {
    margin: 7px;
    padding: 7px;
@@ -115,13 +128,14 @@
    display:inline;
    margin: 7px;
    padding: 7px;
+   border-width: 1px
  }
 
  .top-right {
    display: flex;
    justify-content: space-between;
    flex-flow: row;
-
+   box-shadow: 0px 15px 75px rgb(226, 216, 101);
  }
 
  .side-bar {
@@ -130,7 +144,7 @@
     padding: 40px;
     color: rgb(240, 250, 216);
     font-style: sans-serif;
-    box-shadow: 0px 15px 75px yellow;
+    box-shadow: 0px 15px 75px rgb(226, 216, 101);
     cursor: pointer;
    }
 
@@ -159,7 +173,9 @@
    padding: 60px;
    color: rgb(240, 250, 216);
    background-image: url(https://tse4.mm.bing.net/th?id=OIP.-yIs2aIdL-qZOrQiJCXBtQAAAA&pid=Api);
- }
+   margin-inline-start: 25px;
+   align-items: center;
+}
 
  .remix {     
    display: flex;
