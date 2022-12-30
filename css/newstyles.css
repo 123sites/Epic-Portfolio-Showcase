@@ -17,8 +17,6 @@ header {
   background-image: url(https://images.freecreatives.com/wp-content/uploads/2016/02/High-Res-Purple-Glitter-Background.jpg);
 }
 
-
-
 #my-name {
   background-color: rgb(103, 28, 160);
   -webkit-box-flex: inherit;
@@ -30,16 +28,15 @@ header {
 h1 {
   font-size: 50px;
   text-align: left;
-  padding: 2px 1% 2px 2%;
-  line-height: 1;
+  padding: 1px 1% 1px 1%;
 }
 
 h2 {
+  color: rgb(240, 250, 216);
   font-size: 40px;
   font-weight: bold;
   flex-flow: unset;
   display: block;
-  align-items: right;
   margin: 1px;
 }
 
@@ -52,10 +49,12 @@ h2 {
 }
 
 
-.subtitle {
+.my-portfolio {
+  display: flex;
   height: 80px;
   justify-content: flex-end;
   padding-bottom: 30px;
+  background-image: url(https://tse3.mm.bing.net/th?id=OIP.tNx2RFzvYXhx2Va6uIeLwAHaEo&pid=Api);
 }
 
 nav {
