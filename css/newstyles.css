@@ -51,13 +51,16 @@ h2 {
 
 .my-portfolio {
   display: flex;
+  font-family: sans-serif;
   height: 80px;
   justify-content: flex-end;
   padding-bottom: 30px;
+  color: rgb(240, 250, 216);
   background-image: url(https://tse3.mm.bing.net/th?id=OIP.tNx2RFzvYXhx2Va6uIeLwAHaEo&pid=Api);
 }
 
 nav {
+  display: flex;
   justify-content: space-between;
   height: 80px;
   color: rgb(240, 250, 216);
@@ -100,6 +103,7 @@ p {
   font-size: 25px;
   color: rgb(240, 250, 216);
   margin: 25px;
+  display: inline-flex;
 }
 
 
