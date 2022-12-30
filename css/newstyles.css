@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  justify-content: space-between;
+  color: rgb(240, 250, 216);
+  font-size: 35px;
+  text-align: left;
+  display: flex;
+  outline: solid darkgray;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.glitter {
+  background-image: url(https://images.freecreatives.com/wp-content/uploads/2016/02/High-Res-Purple-Glitter-Background.jpg);
+}
+
+
+
+#my-name {
+  background-color: rgb(103, 28, 160);
+  -webkit-box-flex: inherit;
+  font-family: sans-serif;
+  margin: 0em 1em 24px 5px;
+  border-radius: 25px;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: left;
+  padding: 2px 1% 2px 2%;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: bold;
+  flex-flow: unset;
+  display: block;
+  align-items: right;
+  margin: 1px;
+}
+
+@media screen and (max-width: 975px) {
+  header {
+     padding: 0 0 10px 0;
+     justify-content: center;
+     text-align: center;
+  }
+}
+
+
+.subtitle {
+  height: 80px;
+  justify-content: flex-end;
+  padding-bottom: 30px;
+}
+
+nav {
+  justify-content: space-between;
+  height: 80px;
+  color: rgb(240, 250, 216);
+  cursor: pointer;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: rgb(103, 28, 160);
+  border-radius: 25px;
+}
+
+nav a {
+  font-size: 25px;
+  transition: all 0.15s ease-in;
+  padding: 0px;
+  color: rgb(240, 250, 216);
+  margin: 15px;
+}
+
+
+.nav a:hover {
+  color: gold;
+
+}
+
+.subtitle {
+  height: 80px;
+  justify-content: flex-end;
+  padding-bottom: 30px;
+}
+
+.about {
+
+}
+
+
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  padding: 0;
+  background-color: rgb(103, 28, 160);
+}

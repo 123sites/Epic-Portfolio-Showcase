@@ -1,63 +1,64 @@
+/*  */
 * {
    box-sizing: border-box;
 }
-
-
-header {
-    justify-content: space-between;
-    align-items: center;
-    color: rgb(240, 250, 216);
-    font-size: 35px;
-    text-align: left;
-    display: flex;
-    outline: solid darkgray;
-    font-style: sans-serif;
-    box-sizing: border-box;
-    padding: 20px;
-    background-image: url(https://images.freecreatives.com/wp-content/uploads/2016/02/High-Res-Purple-Glitter-Background.jpg);
- }
-
- header nav{
-   justify-content: center;
- }
-
- nav a:hover {
-   color: gold;
- }
-
+/*  */
 body {
    font-family: sans-serif;
    line-height: 1.5;
    padding: 0;
    background-color: rgb(103, 28, 160);
- }
-
-h1, h2, h3 {
+}
+/*  */
+header {
+   justify-content: space-between;
+   align-items: center;
+   color: rgb(240, 250, 216);
+   font-size: 35px;
+   text-align: left;
+   display: flex;
+   outline: solid darkgray;
+   font-style: sans-serif;
+   box-sizing: border-box;
+   padding: 20px;
+   background-image: url(https://images.freecreatives.com/wp-content/uploads/2016/02/High-Res-Purple-Glitter-Background.jpg);
+}
+/* DELETED */
+header nav {
+   justify-content: center;
+}
+/*  */
+nav a:hover {
+   color: gold;
+}
+/* DELTE????????????? */
+h1,
+h2,
+h3 {
    font-family: sans-serif;
    color: rgb(240, 250, 216);
-   text-align: left;
- }
-
+}
+/*  */
 h1 {
-    font-size: 50px;
-    text-align: left;
-    padding: 5px 1% 5px 5%;
-    line-height: 1;
- }
-
+   font-size: 50px;
+   text-align: left;
+   padding: 5px 1% 5px 5%;
+   line-height: 1;
+}
+/*  */
 h2 {
-    font-size: 40px;
-    font-weight: bold;
-    text-align: right;
-    flex-flow: unset;
-    display: block;
-    margin: 1px;
- }
+   font-size: 40px;
+   font-weight: bold;
+   text-align: right;
+   flex-flow: unset;
+   display: block;
+   margin: 1px;
+}
 
-
+/*  */
 nav {
    font-size: 30px;
-   justify-content:space-between;
+   justify-content: space-between;
    height: 80px;
    color: rgb(240, 250, 216);
    cursor: pointer;
@@ -68,7 +69,7 @@ nav {
    flex-wrap: wrap;
    background: rgb(103, 28, 160);
 }
- 
+
 div {
    display: flex;
 }
@@ -79,12 +80,13 @@ nav a {
    padding: 5px 10px;
    margin-right: 10px;
 }
+
 main {
    flex-wrap: wrap;
    color: rgb(240, 250, 216);
-   font-family: sans-serif;  
+   font-family: sans-serif;
    margin-top: 15px;
-   margin-bottom: 40px; 
+   margin-bottom: 40px;
 }
 
 section {
@@ -92,40 +94,40 @@ section {
    color: rgb(240, 250, 216);
    background-color: rgb(103, 28, 160);
    box-shadow: 0px 15px 75px yellow;
- }
+}
 
 p {
-  font-family: sans-serif;
-  height: 50;
- }
+   font-family: sans-serif;
+   height: 50;
+}
 
 a {
-  color: yellow;
-  font-size: 25px;
-  font-weight: bold;
-  color: rgba(243, 243, 19, 0.864);
-  font-family: sans-serif;
-  margin: 0px 5px 0px 0px;
-  padding: 2px 5px;
- }
+   color: yellow;
+   font-size: 25px;
+   font-weight: bold;
+   color: rgba(243, 243, 19, 0.864);
+   font-family: sans-serif;
+   margin: 0px 5px 0px 0px;
+   padding: 2px 5px;
+}
 
 aside {
    color: rgb(240, 250, 216);
    background: rgb(103, 28, 160);
    cursor: pointer;
    align-content: flex-start;
- }
+}
 
- footer {
+footer {
    background-image: url(https://images.freecreatives.com/wp-content/uploads/2016/02/High-Res-Purple-Glitter-Background.jpg);
- }
-
+}
+/*  */
 .header-glitter {
    background-image: url(https://images.freecreatives.com/wp-content/uploads/2016/02/High-Res-Purple-Glitter-Background.jpg);
 }
 
 .p-plaid {
-background-image: url(https://tse3.mm.bing.net/th?id=OIP.tNx2RFzvYXhx2Va6uIeLwAHaEo&pid=Api);
+   background-image: url(https://tse3.mm.bing.net/th?id=OIP.tNx2RFzvYXhx2Va6uIeLwAHaEo&pid=Api);
 }
 
 .r-texture {
@@ -146,39 +148,33 @@ background-image: url(https://tse3.mm.bing.net/th?id=OIP.tNx2RFzvYXhx2Va6uIeLwAH
 }
 
 .about:hover {
-  background-color: silver;
-  box-shadow: 0px 15px 75px yellow;
- }
+   background-color: silver;
+   box-shadow: 0px 15px 75px yellow;
+}
 
 .work:hover {
-  background-color: silver;
-  box-shadow: 0px 15px 75px yellow;
- }
+   background-color: silver;
+   box-shadow: 0px 15px 75px yellow;
+}
+
 .contact:hover {
-  background-color: silver;
-  box-shadow: 0px 15px 75px yellow;
- }
+   background-color: silver;
+   box-shadow: 0px 15px 75px yellow;
+}
+
 .resume:hover {
-  background-color: silver;
-  box-shadow: 0px 15px 75px yellow;
- }
+   background-color: silver;
+   box-shadow: 0px 15px 75px yellow;
+}
 
 
-#about:hover {
+#about:hover {}
 
- }
+#work:hover {}
 
-#work:hover {
+#contact:hover {}
 
- }
-
-#contact:hover {
-
- }
-
-#resume:hover {
-
- }
+#resume:hover {}
 
 .run-buddy {
    background-image: url(https://images.freecreatives.com/wp-content/uploads/2016/02/High-Res-Purple-Glitter-Background.jpg);
@@ -200,21 +196,22 @@ background-image: url(https://tse3.mm.bing.net/th?id=OIP.tNx2RFzvYXhx2Va6uIeLwAH
 .surf-report {
    background-image: url(https://tse1.mm.bing.net/th?id=OIP.h78ZTPTpyOLeU1GLnKNjigHaE8&pid=Api)
 }
-
+/*  */
 .my-name {
    background-color: rgb(103, 28, 160);
    -webkit-box-flex: inherit;
    font-family: sans-serif;
    margin-right: 25px;
- }
+}
+
 .nav-links {
    margin: 7px;
    padding: 7px;
    font-family: sans-serif;
    font-size: 25px;
- }
+}
 
- .page-section {
+.page-section {
    justify-content: space-between;
    margin: 20px 0;
    padding: 10px 0;
@@ -222,34 +219,34 @@ background-image: url(https://tse3.mm.bing.net/th?id=OIP.tNx2RFzvYXhx2Va6uIeLwAH
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
- }
-
- .subtitle {
+}
+/*  */
+.subtitle {
    height: 80px;
-   justify-content:flex-end;
+   justify-content: flex-end;
    padding-bottom: 30px;
 }
-
- .top-right {
+/* DELETED, NOT USED IN HTML */
+.top-right {
    display: flex;
    justify-content: space-between;
    flex-flow: row;
    box-shadow: 0px 15px 75px rgb(226, 216, 101);
- }
+}
 
- .side-bar {
-    display: block;
-    justify-content: space-between;
-    padding: 40px;
-    color: rgb(240, 250, 216);
-    font-style: sans-serif;
-    cursor: pointer;
-   }
+.side-bar {
+   display: block;
+   justify-content: space-between;
+   padding: 40px;
+   color: rgb(240, 250, 216);
+   font-style: sans-serif;
+   cursor: pointer;
+}
 
 .about {
    color: rgb(240, 250, 216);
    font-size: 20px;
-   justify-content: right;   
+   justify-content: right;
    background-color: rgb(103, 28, 160);
 }
 
@@ -260,16 +257,22 @@ background-image: url(https://tse3.mm.bing.net/th?id=OIP.tNx2RFzvYXhx2Va6uIeLwAH
    color: rgb(240, 250, 216);
    box-shadow: 0px 15px 75px yellow;
    cursor: pointer;
-   }
- 
+}
 
- .youtube {
+
+.youtube {
    display: flex;
    justify-content: space-between;
    padding: 60px;
    color: rgb(240, 250, 216);
    margin-inline-start: 25px;
    align-items: center;
+}
+
+.page-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
 }
 
 .items {
@@ -281,16 +284,16 @@ background-image: url(https://tse3.mm.bing.net/th?id=OIP.tNx2RFzvYXhx2Va6uIeLwAH
    cursor: pointer;
 }
 
- .remix {     
+.remix {
    display: flex;
    justify-content: space-between;
    padding: 60px;
    color: rgb(240, 250, 216);
    box-shadow: 0px 15px 75px rgba(166, 168, 171, 0.5);
    cursor: pointer;
- }
+}
 
- .future {     
+.future {
    display: flex;
    justify-content: space-between;
    padding: 60px;
@@ -302,22 +305,22 @@ background-image: url(https://tse3.mm.bing.net/th?id=OIP.tNx2RFzvYXhx2Va6uIeLwAH
    text-align: left;
    outline: solid darkgray;
    font-family: sans-serif;
-   box-sizing:border-box;
+   box-sizing: border-box;
    flex-direction: row;
    align-items: center;
    display: flex;
    flex-wrap: wrap;
 
- }
+}
 
- @media screen and (max-width: 975px) {
+@media screen and (max-width: 975px) {
    header {
       padding: 0 0 10px 0;
       justify-content: center;
       text-align: center;
    }
 }
-
+/* I DELETEDHEADER H1  */
 header h1 {
    width: 100%;
    font-size: 50px;
@@ -325,32 +328,33 @@ header h1 {
    padding: 5px 1% 5px 5%;
    line-height: 1;
 }
- 
-header nav{
+/* SKIPPED HEADER NAV */
+header nav {
    justify-content: center;
 }
 
-.page-section > h2,
-.page-section > div {
+.page-section>h2,
+.page-section>div {
    flex: 0 0 100%;
    color: rgb(240, 250, 216);
    font-size: 20px;
-   justify-content: right;   
-   background-color: rgb(103, 28, 160); 
+   justify-content: right;
+   background-color: rgb(103, 28, 160);
 }
 
-page-section > h2 {
+page-section>h2 {
    border-bottom: 5 px solid;
    font-size: 30px;
    text-align: left;
    padding-bottom: 15px;
    margin-bottom: 20px;
    color: rgb(240, 250, 216);
-   font-size: 20px; 
+   font-size: 20px;
    background-color: rgb(103, 28, 160);
 }
 
 @media screen and (max-width: 750px) {
+
    .item,
    .item:first-child {
       flex-basis: 100%;
@@ -360,7 +364,7 @@ page-section > h2 {
 .item:first-child {
    min-height: 150px;
 }
-
+/* Below was a duplicate. */
 .glitter {
    text-align: center;
    justify-content: center;
