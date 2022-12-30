@@ -89,28 +89,28 @@ section {
    box-shadow: 0px 15px 75px yellow;
  }
 
- p {
-   font-family: sans-serif;
-   height: 50;
+p {
+  font-family: sans-serif;
+  height: 50;
  }
 
- a {
-   color: yellow;
-   font-size: 25px;
-   font-weight: bold;
-   color: rgba(243, 243, 19, 0.864);
-   font-family: sans-serif;
-   margin: 0px 5px 0px 0px;
-   margin-right: 10px;
-   margin-left: 10px;
-   padding: 2px 5px;
+a {
+  color: yellow;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgba(243, 243, 19, 0.864);
+  font-family: sans-serif;
+  margin: 0px 5px 0px 0px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 2px 5px;
  }
 
- aside {
-    color: rgb(240, 250, 216);
-    background: rgb(103, 28, 160);
-    cursor: pointer;
-    align-content: flex-start;
+aside {
+   color: rgb(240, 250, 216);
+   background: rgb(103, 28, 160);
+   cursor: pointer;
+   align-content: flex-start;
  }
 
  footer {
@@ -142,7 +142,7 @@ background-image: url(https://tse3.mm.bing.net/th?id=OIP.tNx2RFzvYXhx2Va6uIeLwAH
 }
 
 .background {
-       background: rgb(103, 28, 160);
+   background: rgb(103, 28, 160);
 }
 
 .about:hover {
@@ -154,29 +154,29 @@ background-image: url(https://tse3.mm.bing.net/th?id=OIP.tNx2RFzvYXhx2Va6uIeLwAH
   background-color: silver;
   box-shadow: 0px 15px 75px yellow;
  }
- .contact:hover {
-   background-color: silver;
-   box-shadow: 0px 15px 75px yellow;
+.contact:hover {
+  background-color: silver;
+  box-shadow: 0px 15px 75px yellow;
  }
- .resume:hover {
-   background-color: silver;
-   box-shadow: 0px 15px 75px yellow;
- }
-
-
- #about:hover {
-
+.resume:hover {
+  background-color: silver;
+  box-shadow: 0px 15px 75px yellow;
  }
 
- #work:hover {
+
+#about:hover {
 
  }
 
- #contact:hover {
+#work:hover {
 
  }
 
- #resume:hover {
+#contact:hover {
+
+ }
+
+#resume:hover {
 
  }
 
