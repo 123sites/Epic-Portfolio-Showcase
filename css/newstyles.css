@@ -36,7 +36,7 @@ h2 {
   font-size: 40px;
   font-weight: bold;
   flex-flow: unset;
-  display: block;
+  display: flex;
   margin: 1px;
 }
 
@@ -50,11 +50,21 @@ h2 {
 
 .my-portfolio {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-between;
   font-family: sans-serif;
-  height: 80px;
   justify-content: flex-end;
-  padding-bottom: 30px;
+  margin-right: 15px;
   color: rgb(240, 250, 216);
+  text-align: right;
+}
+
+.plaid {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
   background-image: url(https://tse3.mm.bing.net/th?id=OIP.tNx2RFzvYXhx2Va6uIeLwAHaEo&pid=Api);
 }
 
@@ -82,13 +92,6 @@ nav a {
 
 .nav a:hover {
   color: gold;
-
-}
-
-.my-portfolio {
-  height: 80px;
-  justify-content: flex-end;
-  padding-bottom: 15px;
 }
 
 .about {
