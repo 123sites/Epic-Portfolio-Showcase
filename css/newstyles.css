@@ -75,30 +75,37 @@ nav a {
   transition: all 0.15s ease-in;
   padding: 0px;
   color: rgb(240, 250, 216);
-  margin: 15px;
+  margin: 10px 1em 2px 1em;
 }
-
 
 .nav a:hover {
   color: gold;
 
 }
 
-.subtitle {
+.my-portfolio {
   height: 80px;
   justify-content: flex-end;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
 }
 
 .about {
+  margin: 10px;
 
 }
 
+p {
+  font-family: sans-serif;
+  height: 50;
+  font-size: 25px;
+  color: rgb(240, 250, 216);
+  margin: 25px;
+}
 
 
 body {
   font-family: sans-serif;
-  line-height: 1.5;
+  line-height: 1;
   padding: 0;
   background-color: rgb(103, 28, 160);
 }
