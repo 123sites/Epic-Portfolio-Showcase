@@ -5,7 +5,7 @@
 header {
   justify-content: space-between;
   color: rgb(240, 250, 216);
-  font-size: 35px;
+  font-size: 18px;
   text-align: left;
   display: flex;
   outline: solid darkgray;
@@ -18,11 +18,13 @@ header {
 }
 
 #my-name {
+  display: inline-block;
   background-color: rgb(103, 28, 160);
   -webkit-box-flex: inherit;
   font-family: Nunito sans, sans-serif;
   margin: 0em 1em 24px 5px;
   border-radius: 25px;
+
 }
 
 h1 {
@@ -36,15 +38,13 @@ h2 {
   font-size: 40px;
   font-weight: bold;
   flex-flow: unset;
-  display: flex;
+  display: inline flex;
   margin: 1px;
 }
 
 @media screen and (max-width: 975px) {
   header {
-     padding: 0 0 10px 0;
-     justify-content: center;
-     text-align: center;
+     padding: 0 0 5px 0;
   }
 }
 
@@ -62,32 +62,32 @@ h2 {
 
 .plaid {
   display: flex;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 28px;
+  padding-bottom: 28px;
   margin: 0;
   background-image: url(https://tse3.mm.bing.net/th?id=OIP.tNx2RFzvYXhx2Va6uIeLwAHaEo&pid=Api);
 }
 
 nav {
-  display: flex;
-  justify-content: space-between;
-  height: 80px;
+  justify-content: center;
   color: rgb(240, 250, 216);
   cursor: pointer;
   font-family: sans-serif;
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   flex-wrap: wrap;
   background: rgb(103, 28, 160);
   border-radius: 25px;
+  padding: 0px;
 }
 
 nav a {
-  font-size: 25px;
+  display: flex;
+  font-size: 22px;
   transition: all 0.15s ease-in;
   padding: 0px;
   color: rgb(240, 250, 216);
-  margin: 10px 1em 2px 1em;
+  margin: 1em 1em 1em 1em;
 }
 
 .nav a:hover {
