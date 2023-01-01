@@ -7,30 +7,49 @@ header {
   color: rgb(240, 250, 216);
   font-size: 18px;
   text-align: left;
-  display: flex;
   outline: solid darkgray;
   box-sizing: border-box;
-  padding: 20px;
+  padding: 15px;
+}
+
+@media screen and (max-width: 900px) {
+  header {
+    padding: 10em 10em 10em 10em;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10px;
+  }
 }
 
 .glitter {
   background-image: url(https://images.freecreatives.com/wp-content/uploads/2016/02/High-Res-Purple-Glitter-Background.jpg);
 }
 
+@media screen and (max-width: 975px) {
+  .glitter {
+    padding: .5em 1em .5em 1em;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10px;
+  }
+}
+
 #my-name {
-  display: inline-block;
+  display: inline-flex;
   background-color: rgb(103, 28, 160);
   -webkit-box-flex: inherit;
   font-family: Nunito sans, sans-serif;
-  margin: 0.2em 1em 24px 5px;
+  margin: .5em 10em .5em 0em;
   border-radius: 25px;
   font-size: 60px;
+  padding: 12px;
+  justify-content: center;
 }
 
 h1 {
   font-size: 50px;
-  text-align: left;
-  padding: 1px 1% 1px 1%;
+  text-align: center;
+
 }
 
 h2 {
@@ -39,12 +58,12 @@ h2 {
   font-weight: bold;
   flex-flow: unset;
   display: inline flex;
-  margin: 1px;
 }
 
 @media screen and (max-width: 975px) {
-  header {
-     padding: 0 0 5px 0;
+.glitter {
+   padding: 10px;
+   margin:5px;
   }
 }
 
@@ -61,33 +80,69 @@ h2 {
 }
 
 .plaid {
-  display: flex;
   padding-top: 28px;
   padding-bottom: 28px;
   margin: 0;
+  flex-direction: row-reverse;
+  display: flex;
+  justify-content: flex-start;
   background-image: url(https://tse3.mm.bing.net/th?id=OIP.tNx2RFzvYXhx2Va6uIeLwAHaEo&pid=Api);
 }
 
+@media screen and (max-width: 975px) {
+  .plaid {
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+.why {
+
+}
+
+@media screen and (max-width: 975px) {
+  .why {
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10px;
+  }
+}
+
+
 nav {
-  justify-content: center;
+  justify-content: right;
   color: rgb(240, 250, 216);
   cursor: pointer;
   font-family: sans-serif;
   display: inline-flex;
   flex-direction: row;
-  flex-wrap: wrap;
   background: rgb(103, 28, 160);
   border-radius: 25px;
   padding: 0px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 nav a {
-  display: flex;
+  display: center;
+  justify-content: right;
   font-size: 22px;
   transition: all 0.15s ease-in;
   padding: 0px;
   color: rgb(240, 250, 216);
   margin: 1em 1em 1em 1em;
+  text-align: top;
+  font-display: inherit;
+}
+
+a {
+  color: yellow;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin: 0px 5px 0px 0px;
+  padding: 2px 5px;
 }
 
 .nav a:hover {
@@ -97,6 +152,15 @@ nav a {
 .about {
   margin: 10px;
 
+}
+
+@media screen and (max-width: 975px) {
+  .youtube {
+    padding: 2em 1em .5em 1em;
+    justify-content: center;
+    text-align: center;
+    margin-left: 20px;
+  }
 }
 
 p {
