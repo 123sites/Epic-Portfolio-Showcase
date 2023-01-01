@@ -22,9 +22,9 @@ header {
   background-color: rgb(103, 28, 160);
   -webkit-box-flex: inherit;
   font-family: Nunito sans, sans-serif;
-  margin: 0em 1em 24px 5px;
+  margin: 0.2em 1em 24px 5px;
   border-radius: 25px;
-
+  font-size: 60px;
 }
 
 h1 {
