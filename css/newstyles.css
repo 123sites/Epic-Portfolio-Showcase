@@ -106,10 +106,12 @@ h2 {
 }
 
 #why {
-  display: inline-grid;
+  display: grid;
+  grid-template-columns: 130px;
   justify-items:flex-start;
-  margin: 15px 10px 5px 25px;
+  margin: 0px 10px 5px 25px;
   height: 0;
+  padding: 0px;
 }
 
 @media screen and (max-width: 975px) {
@@ -117,6 +119,7 @@ h2 {
     padding: 20px;
     text-align: center;
     margin: 35px 5px 0px 0px;
+    
   }
 }
 
@@ -165,10 +168,15 @@ a {
 
 }
 
+.vl-about {
+  height: 125px;
+  margin-bottom: 50px;
+}
+
 /*  FIX THIS */
-.vl {
+.vl-about, .vl-youtube {
   border-left: 6px solid rgb(240, 250, 216);
-  height: 100px;
+  /* height: 100px; */
   /* position: absolute; */
   /* left: 1%%; */
   /* margin-left: -3px; */
