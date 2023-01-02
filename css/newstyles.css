@@ -109,9 +109,9 @@ h2 {
   display: grid;
   grid-template-columns: 130px;
   justify-items:flex-start;
-  margin: 0px 10px 5px 25px;
+  margin: 0px 50px 5px 25px;
   height: 0;
-  padding: 0px;
+  padding: 35px;
 }
 
 @media screen and (max-width: 975px) {
@@ -162,11 +162,15 @@ a {
   color: gold;
 }
 
-.about {
-  display: grid;
-  margin: 25px 10px 5px 25px;
-
-}
+ .about { 
+   display: grid;
+   margin: 25px 10px 5px 25px;
+   justify-content: space-between;
+   padding: 60px;
+   color: rgb(240, 250, 216);
+   align-items: top;
+ }
+} 
 
 .vl-about {
   height: 125px;
@@ -174,7 +178,7 @@ a {
 }
 
 /*  FIX THIS */
-.vl-about, .vl-youtube {
+.vl, .vl-about, .vl-youtube {
   border-left: 6px solid rgb(240, 250, 216);
   /* height: 100px; */
   /* position: absolute; */
@@ -193,12 +197,12 @@ a {
   }
 }
 
-#youtube {
-  display: inline-flex;
+#youtube, .work, .contact {
+  display: grid;
+  margin: 25px 10px 5px 25px;
   justify-content: space-between;
   padding: 60px;
   color: rgb(240, 250, 216);
-  margin-inline-start: 25px;
   align-items: top;
 }
 
