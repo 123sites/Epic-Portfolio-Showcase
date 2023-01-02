@@ -132,18 +132,20 @@ nav a {
 }
 
 a {
+  margin: 10px 0px 30px 50px;
+  display: grid;
+  grid-template-columns: 100px 1fr;
   color: yellow;
   font-weight: bold;
   font-family: sans-serif;
-  margin: 0px 5px 0px 0px;
-  padding: 2px 5px;
+  padding: 10px;
 }
 
 .nav a:hover {
   color: gold;
 }
 
-.about {
+#about {
   display: inline-grid;
   margin: 39px 10px 0px 25px;
   justify-content: space-between;
@@ -152,6 +154,22 @@ a {
   text-align: center;
 }
 
+.about-link:hover {
+  color: gold;
+  cursor: pointer;
+}
+.about-link {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  margin: 39px 10px 0px 25px;
+  justify-content: space-between;
+  padding: 27px 74px 0px 71px;
+  color: yellow;
+  font-size: 35px;
+
+
+}
 
 .vl-about {
   height: 225px;
