@@ -256,6 +256,7 @@ a {
 #youtube {
   display: inline-flex;
   justify-items: center;
+  justify-content: space-between;
   align-content: stretch;
   margin: 20px 10px 5px 10px;
   padding: 25px;
@@ -263,7 +264,7 @@ a {
 }
 
 #ytc, .ytc {
-    display: inline-flex;  
+    display: inline-flex;
     justify-content: center;
     padding: 94px 74px 0px 71px;
     color: rgb(240, 250, 216);
@@ -284,12 +285,11 @@ a {
 .about {
   display: grid;
   grid-template-columns: 1fr, 1fr;
-  justify-content:space-evenly;
+  justify-content: space-between;
   justify-items: center;
   padding: 60px;
   color: rgb(240, 250, 216);
   margin: 33px
-  
 }
 
 
