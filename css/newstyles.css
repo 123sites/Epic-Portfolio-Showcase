@@ -156,12 +156,10 @@ a {
 .vl-about {
   height: 225px;
   margin: 2px 10px 25px 0px;
-  border: left;
 }
 
 @media screen and (max-width: 975px) {
   #about-text {
-    display: inline-flex;
 
   }
 }
@@ -175,7 +173,8 @@ a {
 /*  FIX THIS */
 .vl,
 .vl-about,
-.vl-youtube {
+.vl-youtube 
+{
   border-left: 6px solid rgb(240, 250, 216);
   /* height: 100px; */
   /* position: absolute; */
@@ -184,18 +183,19 @@ a {
   /* top: 15; */
 }
 
-#why {
-  display: grid;
-  grid-template-columns: 130px;
-  justify-items: flex-start;
-  margin: 0px 35px 0px 35px;
-  height: 0;
-  padding: 0px 51px 0px 50px;
+.why {
+  display: inline-grid;
+  justify-content: space-between;
+  padding: 27px 74px 0px 71px;
+  color: rgb(240, 250, 216);
   text-align: center;
+  width: 20;
+  flex-wrap: row wrap;
+  flex-direction: top;
 }
 
 @media screen and (max-width: 975px) {
-  #why {
+  .why {
     padding: 20px;
     text-align: left;
     margin: 35px 5px 0px 0px;
@@ -224,22 +224,8 @@ a {
   align-items: top;
 }
 
-.youtube-link {
-  font-family: sans-serif;
-  font-size: 40px;
-
-}
 section {
   display: inline-flex;
-}
-
-.page-section {
-  display: inline-grid;
-  margin: 39px 10px 0px 25px;
-  justify-content: space-between;
-  padding: 27px 74px 0px 71px;
-  color: rgb(240, 250, 216);
-  text-align: center;
 }
 
 p {
