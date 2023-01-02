@@ -5,6 +5,7 @@
 html {
   display: inline-flex;
   flex-direction: column-reverse;
+  margin: 0;
 }
 
 header {
@@ -16,6 +17,7 @@ header {
   outline: solid darkgray;
   box-sizing: border-box;
   padding: 15px;
+  margin: 0;
 }
 
 @media screen and (max-width: 975px) {
@@ -82,8 +84,7 @@ div {
 
 @media screen and (max-width: 975px) {
   .glitter {
-    padding: 10px;
-    margin: 5px;
+    margin: 0px;
   }
 }
 
