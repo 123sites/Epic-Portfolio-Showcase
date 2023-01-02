@@ -39,7 +39,7 @@ header {
   background-color: rgb(103, 28, 160);
   -webkit-box-flex: inherit;
   font-family: Nunito sans, sans-serif;
-  margin: .5em 10em .5em 0em;
+  margin: .5em 7em .5em 0em;
   border-radius: 25px;
   font-size: 60px;
   padding: 12px;
@@ -110,17 +110,16 @@ div {
 }
 
 nav {
+  display:inline-flex;
   justify-content: right;
   color: rgb(240, 250, 216);
   cursor: pointer;
   font-family: sans-serif;
-  display: inline-flex;
   flex-direction: row;
   background: rgb(103, 28, 160);
   border-radius: 25px;
   padding: 0px;
-  flex-wrap: wrap;
-  justify-content: center;
+  font-size: 10px;
 }
 
 nav a {
@@ -130,19 +129,18 @@ nav a {
   transition: all 0.15s ease-in;
   padding: 0px;
   color: rgb(240, 250, 216);
-  margin: 1em 1em 1em 1em;
+  margin: 1em 1em 1em .5em;
   text-align: top;
   font-display: inherit;
 }
 
 a {
-  margin: 10px 0px 30px 50px;
-  display: grid;
+  margin: 7px 0px 30px 50px;
   grid-template-columns: 100px 1fr;
   color: yellow;
   font-weight: bold;
   font-family: sans-serif;
-  padding: 10px;
+  padding: 7px;
 
 }
 
@@ -160,11 +158,11 @@ a {
   text-align: center;
 }
 
-.about-link:hover {
+.ytc, .about-link:hover {
   color: gold;
   cursor: pointer;
 }
-.about-link {
+.ytc, .about-link {
   margin-top: 30px;
   display: grid;
   grid-template-columns: 100px 1fr;
@@ -237,15 +235,29 @@ a {
   }
 }
 
+#ytc {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
 #youtube,
+.youtube,
+.youtube-link,
+#ytc,
+#contact,
+#resume,
+.about-link,
 .work,
-.contact {
+.contact
+.about {
   display: grid;
   justify-content:space-evenly;
   padding: 60px;
   color: rgb(240, 250, 216);
   margin: 33px
 }
+
 
 section {
   display: inline-flex;
