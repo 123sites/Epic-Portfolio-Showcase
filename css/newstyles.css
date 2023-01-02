@@ -56,6 +56,12 @@ header {
   justify-content: center;
 }
 
+.picture {
+  display: flex;
+  width: 20%;
+  height: 20%;
+}
+
 @media screen and (max-width: 975px) {
   header {
     padding: 10em 10em 10em 10em;
@@ -283,6 +289,7 @@ a {
 #resume,
 .about-link,
 .work,
+#work,
 .about {
   display: grid;
   grid-template-columns: 1fr, 1fr;
@@ -318,7 +325,7 @@ body {
   background-color: rgb(103, 28, 160);
 }
 
-.work {
+.work, #work{
   display: inline-flex;
   grid-template-columns: 100px 1fr;
   justify-content: center;
@@ -328,3 +335,24 @@ body {
 h3 {
   margin-left: 100px;
 }
+
+.surf-report {
+
+}
+
+.flex-item {
+
+}
+
+.led-wall {
+
+}
+
+.react-calc {
+
+}
+
+.run-buddy {
+  
+}
+

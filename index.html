@@ -2,16 +2,15 @@
 <html lang="en">
 
 <head>
-    <title>Portfolio Showca</title>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio Showcase</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- NUNITO FONT STYLE -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600;700&family=Roboto:ital,wght@1,700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600;700&family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./css/reset.css">
     <!-- <link rel="stylesheet" href="./css/style.css" /> -->
@@ -22,6 +21,9 @@
     <!--TOP OF WEBPAGE-->
     <header id="header" class="glitter">
         <h1 id="my-name">Michele Freitas</h1>
+        <picture class="picture"> -->
+            <img src="assets/Image of Me.png" width="180" height="100"> -->
+        </picture> -->
         <!--TOP-LEFT OF WEBPAGE-->
         <nav class="nav a">
             <a href="#about">About Me</a>
@@ -51,9 +53,8 @@
                 </p>
             </div>
         </section>
-        <section class="column">
+        <section class="column" id="work">
             <div>
-
                 <h2 class="why">Why you should hire me:</h2>
                 <div class="vl">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/E-tLss3zecY"
@@ -64,74 +65,85 @@
             </div>
         </section>
         <section class="column">
-            <div id="ytc"><h2>My YouTube Channel</h2>
+            <div id="ytc">
+                <h2>My YouTube Channel</h2>
             </div>
         </section>
         <section class="column">
             <div class="vl">
                 <div class="ytc">
-                    <a href="https://www.youtube.com/channel/UCMNe2clJI6nf-rmXoVg01xw" 
-                    target="_blank">Link to My YouTube Channel</a>
+                    <a href="https://www.youtube.com/channel/UCMNe2clJI6nf-rmXoVg01xw" target="_blank">Link to My
+                        YouTube Channel</a>
                 </div>
             </div>
-        </section>
-        <section class="column">
-            <div class="vl" id="work"><h2 class="about">Work</h2>
-            </div>
-        </section>
-        <section class="column">
-            <div class="vl">
-                <div class="column">
-                    <h2 class="about">Contact Me</h2>
-                </div>
-            </div>
-        </section>
-        <section class="page-section" id="resume">
-            <div class="vl">
-                <div>
-                    <h2 class="column">Resume</h2>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div>
-                <div class="container">
-                    <a href="#" class="items surf-report"> </a>
-                </div>
-            </div>
-        </section>
-        <div>
-            <h3>Surf Report</h3>
-        </div>
-        <div>
-            <span>MERN Stack</span>
-        </div>
-        <section>
-            <div>
-                <h3>LED Wall</h3>
-                <span>Nod/IoT</span>
-                <div>
-                    <a href="#" class="items react-calc">
-                </div>
-            </div>
-            <section>
-                <div>
-                    <div>
-                        </a>
-                        <a href="#" class="items pastel-puzzles">
-                            <div>
-                                <h3>Pastel Puzzles</h3>
-                                <span>MERN Stack</span>
+            <section class="page-section" id="work">
+                <h2>Work</h2>
+                <div class="flex-container">
+                    <a href="#" class="flex-item surf-report">
+                        <div>
+                            <h3>Surf Report</h3>
+                            <span>MERN Stack</span>
+                            <picture class="flex-item">
+                            <img src="assets/02-portfolio-4.jpg" width="600" height="485">
+                            </picture>
                             </div>
-                        </a>
-                        <a href="#" class="items run-buddy">
-                            <div>
-                                <h3>Run Buddy</h3>
-                                <span>HTML/CSS</span>
+                    </a>
+                    <a href="#" class="flex-item led-wall">
+                        <div>
+                            <h3>LED Wall</h3>
+                            <span>Node/IoT</span>
+                            <picture class="flex-item">
+                            <img src="assets/02-portfolio-1.jpg" width="460" height="345">
+                            </picture>
                             </div>
-                        </a>
+                        </div>
+                    </a>
+                    <a href="#" class="flex-item react-calc">
+                        <div>
+                            <h3>Calculator</h3>
+                            <span>React/JavaScript/CSS</span>
+                            <picture class="flex-item">
+                            <img src="assets/02-portfolio-2.jpg" width="460" height="345">
+                            </picture>
+                        </div>
+                    </a>
+                    <a href="#" class="flex-item pastel-puzzles">
+                        <div>
+                            <h3>Pastel Puzzels</h3>
+                            <span>MERN Stack</span>
+                            <picture class="flex-item">
+                            <img src="assets/02-portfolio-3.jpg" width="460" height="345">
+                            </picture>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="flex-item run-buddy">
+                        <div>
+                            <h3>Run Buddy</h3>
+                            <span>HTML/CSS</span>
+                            <picture class="flex-item">
+                            <img src="assets/02-run-buddy.jpg" width="460" height="345">
+                            </picture>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+            </section>
+            <!-- contact -->
+            <section class="page-section contact" id="contact">
+                <h2>Contact Me</h2>
+                <div>
+                    <address>
+                        <a href="tel:+15555555555">555.555.5555</a>
+                        <a href="mailto:lernantino@website.com">lernantino@website.com</a>
+                        <a href="#">GitHub</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">Spotify</a>
+                    </address>
+                </div>
+            </section>
     </main>
 </body>
-<!--ENDS HERE-->
 
 </html>
