@@ -32,6 +32,7 @@ p {
   color: rgb(240, 250, 216);
   margin: 63px 10px 0px 25px;
   padding-left: 15px;
+  text-align: justify;
 }
 
 header {
@@ -215,23 +216,14 @@ main {
   margin: 2px 10px 25px 0px;
 }
 
-.ytc,
-.about-link:hover {
+#ytc:hover {
   color: gold;
   cursor: pointer;
 }
 
-
-.vl-why {
-  display: inline-flex;
-  height: 300px;
-  margin-bottom: 5px;
-  margin-top: 5px;
-}
-
 .vl,
 .vl-about,
-.vl-youtube {
+.vl-ytc {
   display: inline-flex;
   border-left: 6px solid rgb(240, 250, 216);
   height: 300px;
@@ -244,26 +236,8 @@ main {
   /* top: 15; */
 }
 
-.why {
-  display: inline-grid;
-  grid-template-columns: 100px 1fr;
-  padding: 0px 55px 0px 71px;
-  color: rgb(240, 250, 216);
-  text-align: center;
-  flex-wrap: row wrap;
-  column-gap: 50px;
-}
-
 @media screen and (max-width: 975px) {
-  .why {
-    padding: 20px;
-    text-align: left;
-    margin: 35px 5px 20px 0px;
-  }
-}
-
-@media screen and (max-width: 975px) {
-  #youtube {
+  #ytc {
     justify-items: center;
     text-align: center;
     margin-left: 20px;
@@ -272,18 +246,7 @@ main {
   }
 }
 
-#youtube {
-  display: inline-flex;
-  justify-items: center;
-  justify-content: space-between;
-  align-content: stretch;
-  margin: 20px 10px 5px 10px;
-  padding: 25px;
-  width: 100%;
-}
-
-#ytc,
-.ytc {
+#ytc {
   display: inline-flex;
   justify-content: center;
   padding: 94px 74px 0px 71px;
@@ -294,13 +257,9 @@ main {
   justify-items: center;
 }
 
-.youtube-link,
-#contact,
-#resume,
-.about-link,
-.work,
+#ytc
 #work,
-.about {
+#about {
   display: grid;
   grid-template-columns: 1fr, 1fr;
   justify-content: space-between;
@@ -315,7 +274,7 @@ section {
   grid-template-columns: 100px 1fr;
 }
 
-.work {
+#work {
   display: inline-flex;
   grid-template-columns: 100px 1fr;
   justify-content: center;
