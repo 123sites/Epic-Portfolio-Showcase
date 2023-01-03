@@ -222,17 +222,6 @@ h2 {
   font-weight: bold;
 }
 
-#youtube-link {
-  grid-template-columns: 100px 1fr;
-  display: inline-grid;
-  margin: 40px 25px 25px 25px;
-  justify-content: space-between;
-  color: rgb(240, 250, 216);
-  text-align: center;
-  font-size: 50px;
-  font-weight: bold;
-}
-
 p {
   display: inline flex;
   text-align: left;
@@ -244,36 +233,27 @@ p {
   flex-direction: row;
 }
 
-#ytc:hover {
-  color: gold;
-  cursor: pointer;
-}
 
 .vl,
-.vl-about,
-.vl-ytc {
+.vl-about {
   display: inline-flex;
   border-left: 6px solid rgb(240, 250, 216);
   height: 225px;
   margin: 2px 40px 70px 50px;
 }
 
-@media screen and (max-width: 975px) {
-  #ytc {
-    justify-items: center;
-    text-align: center;
-    margin-left: 20px;
-    display: grid;
-    margin: 15px 10px 5px 25px;
-  }
-}
 
 h3 {
   margin-left: 100px;
+  display: inline flex;
+  color: rgb(240, 250, 216);
+  font-size: 40px;
+  font-weight: bold;
+   margin: 0;
 }
 
-.surf-report {
-}
+
+
 .flex-container {
   min-height: 400;
   flex-basis: 100%;
@@ -311,15 +291,9 @@ h3 {
   border: 5px solid dark gray;
 }
 
-.led-wall {
+.flex-item h3 {
+  font-size: 40px;
 }
-
-.react-calc {
-}
-
-.run-buddy {
-}
-
 .page-section > h2,
 .page-section > div {
   flex: 0 0 100%;
@@ -344,14 +318,13 @@ h3 {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-around;
-  text-align: center;
   text-decoration: none;
 }
 
 #contact address a {
   color: rgb(240, 250, 216);
   align-content: space-between;
-  padding: 5px;
+  padding: 20px;
   font-size: 35px;
   background-size: 100% 0.2em;
   margin: 20px 0.5rem 20px 0.1rem;
@@ -361,6 +334,5 @@ h3 {
 
 #contact address a:hover {
   color: rgb(240, 250, 216);
-  background-size: 100% 88%;;
   text-decoration: none;
 }
