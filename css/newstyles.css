@@ -78,6 +78,7 @@ h1 {
   display: flex;
   width: 15%;
   height: 15%;
+  padding:
 }
 
 @media screen and (max-width: 975px) {
@@ -205,12 +206,8 @@ h2 {
   padding: 27px 74px 0px 71px;
   color: rgb(240, 250, 216);
   text-align: center;
-}
-
-.vl-about, .vl-ytc {
-  display: inline-flex;
-  height: 225px;
-  margin: 2px 10px 25px 50px;
+  font-size: 50px;
+  font-weight: bold;
 }
 
 p {
@@ -234,9 +231,10 @@ p {
 .vl-ytc {
   display: inline-flex;
   border-left: 6px solid rgb(240, 250, 216);
-  height: 300px;
-  margin-bottom: 5px;
-  margin-top: 5px;
+  height: 225px;
+  margin: 2px 40px 70px 50px;
+
+
   /* height: 100px; */
   /* position: absolute; */
   /* left: 1%%; */
@@ -309,26 +307,18 @@ h3 {
 .page-section > h2,
 .page-section > div {
   flex: 0 0 100%;
+  margin-right: 20px;
+  padding: 10px;
 }
 
 .page-section > h2 {
-  border-right: none;
-  border-bottom: 4px solid var(--primary);
   margin-bottom: 20px;
-  padding-bottom: 10px;
-  font-size: 50px;
+  padding-bottom: 20px;
+  font-size: 45px;
 }
 
 .page-section > h3 {
-  border-right: none;
-  border-bottom: 4px solid var(--primary);
   margin-bottom: 20px;
   padding-bottom: 10px;
   font-size: 50px;
-}
-
-#contact {
-  font-size: 50;
-  font-weight: bold;
-  color: rgb(240, 250, 216);
 }
