@@ -10,16 +10,10 @@ body {
   background-color: rgb(103, 28, 160);
 }
 
-h1,
-h2,
-h3,{
-margin: 0;
-}
-
 h1 {
   font-size: 50px;
   text-align: center;
-
+  margin: 0;
 }
 
 h2 {
@@ -27,7 +21,7 @@ h2 {
   color: rgb(240, 250, 216);
   font-size: 40px;
   font-weight: bold;
-
+  margin: 0;
 }
 
 p {
@@ -89,13 +83,14 @@ header {
   font-size: 45px;
   padding: 7px;
   justify-content: center;
+  box-shadow: 0 7px 15px black;
+
 }
 
 .picture {
   display: flex;
   width: 15%;
   height: 15%;
-
 }
 
 @media screen and (max-width: 975px) {
@@ -168,9 +163,7 @@ nav a {
   padding: 3px 3px;
   color: rgb(240, 250, 216);
   font-weight: bold;
-  box-shadow: 0 5px 10px rgb(200, 199, 199);
-  text-decoration: none;
-}
+  box-shadow: 0 7px 15px black;
 
 .nav a:hover {
   color: gold;
