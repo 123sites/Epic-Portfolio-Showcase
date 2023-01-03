@@ -2,19 +2,42 @@
   box-sizing: border-box;
 }
 
-html {
-  display: inline-flex;
-  flex-direction: column-reverse;
-  margin: 0;
-  padding: 0;
-}
-
 body {
   font-family: Nunito, sans-serif;
   margin: 0px;
   padding: 0;
   line-height: 1.5;
   background-color: rgb(103, 28, 160);
+}
+
+h1,
+h2,
+h3,{
+margin: 0;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+
+}
+
+h2 {
+  display: inline flex;
+  color: rgb(240, 250, 216);
+  font-size: 40px;
+  font-weight: bold;
+
+}
+
+p {
+  display: inline-flex;
+  font-family: sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  color: rgb(240, 250, 216);
+  margin: 63px 10px 0px 25px;
+  padding-left: 15px;
 }
 
 header {
@@ -29,6 +52,7 @@ header {
   box-sizing: border-box;
   padding: 15px;
   margin: 0;
+  box-shadow: 0 5px 30px gold;
 }
 
 @media screen and (max-width: 975px) {
@@ -80,20 +104,6 @@ header {
     justify-content: center;
     text-align: center;
   }
-}
-
-h1 {
-  font-size: 50px;
-  text-align: center;
-
-}
-
-h2 {
-  display: inline flex;
-  color: rgb(240, 250, 216);
-  font-size: 40px;
-  font-weight: bold;
-
 }
 
 div {
@@ -155,15 +165,16 @@ nav a {
   font-family: Nunito, sans-serif;
   transition: all 0.15s ease-in;
   margin: 5px 0px 5px 0px;
-  padding: 1px 1px;
+  padding: 3px 3px;
   color: rgb(240, 250, 216);
   font-weight: bold;
+  box-shadow: 0 5px 10px rgb(200, 199, 199);
+  text-decoration: none;
 }
 
 .nav a:hover {
   color: gold;
 }
-
 
 .column {
   float: left;
@@ -306,16 +317,6 @@ section {
   display: inline-flex;
   grid-template-columns: 100px 1fr;
   
-}
-
-p {
-  display: inline-flex;
-  font-family: sans-serif;
-  font-size: 28px;
-  font-weight: bold;
-  color: rgb(240, 250, 216);
-  margin: 63px 10px 0px 25px;
-  padding-left: 15px;
 }
 
 .work {
