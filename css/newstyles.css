@@ -210,12 +210,23 @@ h2 {
   font-weight: bold;
 }
 
-#ytc, #work, #resume {
+#ytc, #work, #resume, #contact {
   grid-template-columns: 100px 1fr;
   display: inline-grid;
   margin: 10px 10px 0px 25px;
   justify-content: space-between;
   padding: 27px 74px 0px 71px;
+  color: rgb(240, 250, 216);
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#youtube-link {
+  grid-template-columns: 100px 1fr;
+  display: inline-grid;
+  margin: 40px 25px 25px 25px;
+  justify-content: space-between;
   color: rgb(240, 250, 216);
   text-align: center;
   font-size: 50px;
@@ -245,13 +256,6 @@ p {
   border-left: 6px solid rgb(240, 250, 216);
   height: 225px;
   margin: 2px 40px 70px 50px;
-
-
-  /* height: 100px; */
-  /* position: absolute; */
-  /* left: 1%%; */
-  /* margin-left: -3px; */
-  /* top: 15; */
 }
 
 @media screen and (max-width: 975px) {
@@ -335,13 +339,28 @@ h3 {
   font-size: 50px;
 }
 
-.contact address a {
-  color: white;
+#contact address {
+  color: rgb(240, 250, 216);
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  text-align: center;
+  text-decoration: none;
+}
+
+#contact address a {
+  color: rgb(240, 250, 216);
   align-content: space-between;
   padding: 5px;
-  text-decoration: none;
-  font-size: 30px;
+  font-size: 35px;
   background-size: 100% 0.2em;
-  margin: 0 0.5rem 0.1rem;
+  margin: 20px 0.5rem 20px 0.1rem;
   display: inline-block;
+  text-decoration: none;
+}
+
+#contact address a:hover {
+  color: rgb(240, 250, 216);
+  background-size: 100% 88%;;
+  text-decoration: none;
 }
