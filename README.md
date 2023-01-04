@@ -28,4 +28,5 @@ Over time, I worked hard on all my projects.  If I had trouble, I first tried to
 
 The license is in the GitHub repository.
 
+## ⭐ Features ⭐
 
