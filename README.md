@@ -1,31 +1,18 @@
-Portfolio Showcase
+## ⭐ Portfolio Showcase ⭐
+
+## Description ✏️
 
 This is a portfolio the shows what I can do with coding.  I gathered evidence over time during the Full-Stack computer coding boot camp I completed.
 
+## Installation🔑
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+There weren't any installations with this project.
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+## Usage 🎯
 
-## Table of Contents (Optional)
+Top of the webpage:
 
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-
-## Installation
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
-
-## Usage
-
-Provide instructions and examples for use. Include screenshots as needed.
+Bottom of the webpage:
 
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
@@ -33,16 +20,12 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
     ![alt text](assets/images/screenshot.png)
     ```
 
-## Credits
+## Credits 👈
 
-List your collaborators, if any, with links to their GitHub profiles.
+Over time, I worked hard on all my projects.  If I had trouble, I first tried to solve the problem myself.  I used Google and YouTube to help problem-solve.  Only when I was really stuck, I took the initiative to ask for help from others.
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+## License 📝
 
-If you followed tutorials, include links to those here as well.
-
-License
-
-NA
+The license is in the GitHub repository.
 
 
