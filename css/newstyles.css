@@ -159,10 +159,6 @@ nav a:hover {
   color: gold;
 }
 
-nav a:last-child {
-  margin-right: 0;
-}
-
 main {
   margin-top: 25px;
   margin-bottom: 40px;
@@ -198,28 +194,25 @@ h2 {
   margin: 0;
 }
 
-#about {
+#about, #work, #contact, #resume { 
   grid-template-columns: 100px 1fr;
-  display: inline-grid;
-  margin: 10px 10px 0px 25px;
-
-  padding: 27px 100px 0px 71px;
+  display: inline-grid;;;
   color: rgb(240, 250, 216);
   text-align: center;
   font-size: 50px;
   font-weight: bold;
+  }
+
+#about {
+  margin: 10px 10px 0px 25px;
+  padding: 27px 100px 0px 71px;
+
 }
 
-#ytc, #work, #resume, #contact {
-  grid-template-columns: 100px 1fr;
-  display: inline-grid;
+#ytc, #work, #contact, #resume {
   margin: 10px 10px 0px 25px;
   justify-content: space-between;
   padding: 27px 74px 0px 71px;
-  color: rgb(240, 250, 216);
-  text-align: center;
-  font-size: 50px;
-  font-weight: bold;
 }
 
 p {
@@ -234,8 +227,7 @@ p {
 }
 
 
-.vl,
-.vl-about {
+.vl {
   display: inline-flex;
   border-left: 6px solid rgb(240, 250, 216);
   height: 225px;
@@ -252,7 +244,21 @@ h3 {
    margin: 0;
 }
 
+.text {
 
+}
+
+.mern-stack1 {
+
+}
+
+.mern-stack1,
+.node-iot,
+.react,
+.mern-stack2,
+.html-css {
+display:inline-flex;
+}
 
 .flex-container {
   min-height: 400;
