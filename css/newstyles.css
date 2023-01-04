@@ -337,7 +337,7 @@ display:inline-flex;
   text-decoration: none;
 }
 
-#contact address {
+.contact address {
   display: flex;
   color: rgb(240, 250, 216);
   flex-wrap: wrap;
@@ -346,7 +346,7 @@ display:inline-flex;
   height: 100%;
 }
 
-#contact address a {
+.contact address a {
   color: rgb(240, 250, 216);
   align-content: space-between;
   padding: 4px;
@@ -359,7 +359,7 @@ display:inline-flex;
   text-decoration: none;
 }
 
-#contact address a:hover {
+.contact address a:hover {
   color: rgb(240, 250, 216);
   text-decoration: none;
 }
