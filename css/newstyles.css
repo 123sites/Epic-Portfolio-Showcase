@@ -166,6 +166,11 @@ main {
   margin-bottom: 40px;
 }
 
+page {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+}
 .column {
   float: left;
 }
@@ -212,13 +217,13 @@ h2 {
 }
 
 #work, #contact, #resume {
-  margin: 10px 10px 0px 25px;
+  margin: 25px 10px 0px 25px;
   justify-content: space-between;
   padding: 27px 74px 0px 71px;
 }
 
 p {
-  display: inline flex;
+  display: flex;
   text-align: left;
   margin-left: 100px;
   font-family: sans-serif;
@@ -333,21 +338,24 @@ display:inline-flex;
 }
 
 #contact address {
-  color: rgb(240, 250, 216);
   display: flex;
-  flex-wrap: nowrap;
+  color: rgb(240, 250, 216);
+  flex-wrap: wrap;
   justify-content: space-around;
   text-decoration: none;
+  height: 100%;
 }
 
 #contact address a {
   color: rgb(240, 250, 216);
   align-content: space-between;
-  padding: 20px;
+  padding: 4px;
   font-size: 35px;
   background-size: 100% 0.2em;
-  margin: 20px 0.5rem 20px 0.1rem;
+  margin: 500px 0.5rem 20px 0.1rem;
+  padding: 35px;
   display: inline-block;
+  transition: all 0.20s ease-in;
   text-decoration: none;
 }
 
