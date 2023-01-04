@@ -201,7 +201,7 @@ h2 {
   margin: 0;
 }
 
-#about, #work, #contact, #resume { 
+#about, #work, .contact, #resume { 
   grid-template-columns: 100px 1fr;
   display: inline-grid;;;
   color: rgb(240, 250, 216);
@@ -216,7 +216,7 @@ h2 {
 
 }
 
-#work, #contact, #resume {
+#work, .contact, #resume {
   margin: 25px 10px 0px 25px;
   justify-content: space-between;
   padding: 27px 74px 0px 71px;
@@ -344,6 +344,7 @@ display:inline-flex;
   justify-content: space-around;
   text-decoration: none;
   height: 100%;
+  align-items: flex-start;
 }
 
 .contact address a {
@@ -363,3 +364,4 @@ display:inline-flex;
   color: rgb(240, 250, 216);
   text-decoration: none;
 }
+
