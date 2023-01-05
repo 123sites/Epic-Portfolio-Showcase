@@ -47,15 +47,6 @@ header {
   margin: 0px;
 }
 
-@media screen and (max-width: 975px) {
-  .glitter {
-    padding: 0.5em 1em 0.5em 1em;
-    justify-content: center;
-    text-align: center;
-    margin-left: 10px;
-  }
-}
-
 h1 {
   font-size: 50px;
   text-align: center;
@@ -84,22 +75,16 @@ h1 {
 
 @media screen and (max-width: 975px) {
   header {
-    padding: 10em 10em 10em 10em;
+    padding: 12em 12em 12em 12em;
     justify-content: center;
     text-align: center;
   }
 }
 
 div {
-  display: block;    
-  }
-
-
-@media screen and (max-width: 975px) {
-  .glitter {
-    margin: 0px;
-  }
+  display: block;
 }
+
 
 .my-portfolio {
   display: inline-flex;
@@ -121,14 +106,6 @@ div {
   display: flex;
   justify-content: flex-start;
   background-image: url(https://tse3.mm.bing.net/th?id=OIP.tNx2RFzvYXhx2Va6uIeLwAHaEo&pid=Api);
-}
-
-@media screen and (max-width: 975px) {
-  .plaid {
-    padding: 20px;
-    justify-content: center;
-    text-align: center;
-  }
 }
 
 nav {
@@ -188,14 +165,6 @@ main {
   width: 50%;
 }
 
-@media screen and (max-width: 600px) {
-
-  .column.side,
-  .column.middle {
-    width: 100%;
-  }
-}
-
 h2 {
   display: inline flex;
   color: rgb(240, 250, 216);
@@ -215,8 +184,6 @@ h2 {
   padding: 27px 100px 0px 71px;
   margin: 20px;
 }
-
-#resume {}
 
 #work {
   display: flex;
@@ -331,7 +298,7 @@ h3 {
   float: left;
   width: 100%;
   justify-content: flex-start;
-  }
+}
 
 
 .flex-item {
@@ -352,19 +319,19 @@ h3 {
   float: left;
   width: 100%;
   float: right;
-  }
+}
 
-  
+
 
 
 .hire:after {
-  content: "pastel";
+  content: "horiseon";
   clear: both;
   display: table;
 }
 
 
-.pastel {
+.horiseon {
   display: block;
   width: 75%;
   float: left;
@@ -480,23 +447,31 @@ h3 {
   text-decoration: none;
 }
 
+
 @media screen and (max-width: 980px) {
-  header {
+  header, #myname {
+    display: flex;
     padding: 0 0 10px 0;
     justify-content: center;
     text-align: center;
     align-items: stretch;
+    margin: 0px; 
   }
 
   header h1 {
+    display: flex;
     width: 100%;
     padding: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
 
   header nav {
     justify-content: center;
+    align-content:space-between;
   }
 
   .page-section>h2,
@@ -513,41 +488,63 @@ h3 {
   }
 }
 
+
+@media screen and (max-width: 500px) {
+
+  .ytc,
+  .hire,
+  .horiseon,
+  .run-buddy {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
 @media screen and (max-width: 980px) {
 
   .flex-item,
   .flex-item:first-child {
     flex-basis: 100%;
-    text-decoration: none;
+    margin: 0;
+    padding: 0;
   }
 
   .flex-item:first-child {
-    min-height: 150px;
+    min-height: 125px;
   }
 
-  @media screen and (max-width: 980px) {
-
-    .plaid,
-    .glitter {
-      display: block;
-      justify-content: center;
-      text-align: center;
-      align-items: stretch;
-    }
+  .glitter,
+  .plaid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0px;
   }
 
-  @media screen and (max-width: 500px) {
 
-  .ytc,
-  .hire,    
-  .pastel,
-  .run-buddy   {
-  width: 100%;
-    }
+.picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0px;
   }
 
-    .contact address {
-      flex-direction: column;
-      align-items: flex-start;
-    }
+  .contact address {
+    flex-direction: column;
+    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .column.side,
+  .column.middle {
+    width: 100%;
+  }
 }
