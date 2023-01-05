@@ -13,6 +13,10 @@ There weren't any installations with this project.
 Top of the webpage:
 
 Bottom of the webpage:
+Top of the webpage:
+[image](    )
+Bottom of webpage:
+[image](https://user-images.githubusercontent.com/112774966/189451529-562bd28c-5945-49be-9e33-d77c5a18b6db.png)
 
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
