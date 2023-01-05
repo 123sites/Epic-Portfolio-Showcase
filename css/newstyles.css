@@ -91,8 +91,9 @@ h1 {
 }
 
 div {
-display: block;
-}
+  display: block;    
+  }
+
 
 @media screen and (max-width: 975px) {
   .glitter {
@@ -165,13 +166,15 @@ main {
   margin-bottom: 40px;
 }
 
-page {
-  margin-left: auto;
-  margin-right: auto;
+.left-side {
+  margin-left: 1rem;
+  margin-right: 1rem;
   max-width: 90%;
 }
+
 .column {
   float: left;
+  padding: px;
 }
 
 /* Left and right column */
@@ -186,6 +189,7 @@ page {
 }
 
 @media screen and (max-width: 600px) {
+
   .column.side,
   .column.middle {
     width: 100%;
@@ -198,27 +202,32 @@ h2 {
   font-size: 35px;
   font-weight: bold;
   margin: 0;
+  text-decoration: none;
 }
 
-#about, #work, #resume { 
+#about {
+  display: flex;
   grid-template-columns: 100px 1fr;
-  display: inline-grid;;;
+  display: inline-grid;
+  color: rgb(240, 250, 216);
+  font-size: 50px;
+  font-weight: bold;
+  padding: 27px 100px 0px 71px;
+  margin: 20px;
+}
+
+#resume {}
+
+#work {
+  display: flex;
+  grid-template-columns: 100px 1fr;
   color: rgb(240, 250, 216);
   text-align: center;
   font-size: 50px;
   font-weight: bold;
-  }
-
-#about {
-  margin: 10px 10px 0px 25px;
   padding: 27px 100px 0px 71px;
-
-}
-
-#work, #resume {
-  margin: 25px 10px 0px 25px;
-  justify-content: space-between;
-  padding: 27px 74px 0px 71px;
+  margin: 20px;
+  text-decoration: none;
 }
 
 p {
@@ -230,19 +239,32 @@ p {
   font-weight: bold;
   color: rgb(240, 250, 216);
   flex-direction: row;
+  text-decoration: none;
 }
 
 
 
 .vl {
-  display: inline-flex;
   border-left: 6px solid rgb(240, 250, 216);
-  height: 225px;
+  min-height: 225px;
   margin: 2px 40px 70px 50px;
 }
 
 
-h3, span {
+
+
+.text-surf {
+  margin-left: 100px;
+  display: inline flex;
+  color: black;
+  font-weight: bold;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0;
+  text-decoration: none;
+}
+
+h3 {
   margin-left: 100px;
   display: inline flex;
   color: rgb(240, 250, 216);
@@ -252,67 +274,139 @@ h3, span {
   text-decoration: none;
 }
 
+
 .flex-item {
   display: flex;
   align-items: flex-end;
   margin: 0.05em;
   padding: 0 0 18px 0;
   font-size: 25px;
-  transition: all 0.5s;;
+  transition: all 0.5s;
   text-decoration: none;
   max-height: 150px;
   min-height: 150px;
   border: 5px solid dark gray;
 }
 
+.flex-item:first-child {
+  min-height: 400px;
+  flex-basis: 100%;
+  text-decoration: none;
+}
+
 .flex-item div {
-  padding: 5px 10px;
+  padding: 0px 62px;
+  flex-direction: row;
+  text-decoration: none;
 }
+
 .flex-item h3 {
-  font-size: 40px;
+  font-size: 1.6rem;
+  text-decoration: none;
 }
+
 .flex-item:hover {
   background-color: gold;
 }
- 
-div > picture {
-  padding: 25px;
 
-}
-.text {
-
-}
-
-.mern-stack1 {
-
+.surf {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
 }
 
-.mern-stack1,
-.node-iot,
-.react,
-.mern-stack2,
-.html-css {
+
+
+/* .img-containner { */
+/* display: flex; */
+/* } */
+
+/* .img-column { */
+/* flex: 30%; */
+/* padding: 5px; */
+/* } */
+
+.ytc {
+  float: left;
+  width: 100%;
+  justify-content: flex-start;
+  }
+
+
+.flex-item {
+  flex: 33.33%;
+  padding: 5px;
+  float: left;
+  text-decoration: none;
+}
+
+.ytc:after {
+  content: "hire";
+  clear: both;
   display: flex;
 }
 
-.page-section > div {
+.hire {
+  justify-content: flex-end;
+  float: left;
+  width: 100%;
+  float: right;
+  }
+
+  
+
+
+.hire:after {
+  content: "pastel";
+  clear: both;
+  display: table;
+}
+
+
+.pastel {
+  display: block;
+  width: 75%;
+  float: left;
+}
+
+
+.run-buddy {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+
+.page-section>div {
   flex: 0 0 75%;
+  text-decoration: none;
+}
+
+.page-section p {
+  margin-bottom: 20px;
+  text-decoration: none;
 }
 
 .flex-container {
   flex-wrap: wrap;
   display: flex;
   justify-content: center;
+  text-decoration: none;
 }
 
 .flex-container:first-child {
   min-height: 400;
   flex-basis: 100%;
+  text-decoration: none;
 }
 
 .flex-container-column {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  text-decoration: none;
 }
 
 .flex-container:hover {
@@ -330,20 +424,28 @@ div > picture {
   text-decoration: none;
 }
 
-.page-section > h2,
-.page-section > div {
+.page-section>div {
   flex: 0 0 20%;
   margin-right: 0px 2px 0px 0px;
   padding: 10px;
   text-decoration: none;
 }
 
-.page-section > h2 {
+
+.code-name {
+  color: rgb(240, 250, 216);
+  font-size: 35px;
+  text-decoration: none;
+}
+
+.page-section>h2 {
   text-align: right;
   padding-right: 15px;
-  font-size: 45px;    
+  font-size: 45px;
+  text-decoration: none;
 }
-.page-section > h3 {
+
+.page-section>h3 {
   margin-bottom: 20px;
   padding-bottom: 10px;
   font-size: 50px;
@@ -362,7 +464,8 @@ div > picture {
 }
 
 .contact address a {
-  color: rgb(240, 250, 216);;
+  color: rgb(240, 250, 216);
+  ;
   padding: 4px;
   font-size: 25px;
   font-style: normal;
@@ -377,3 +480,74 @@ div > picture {
   text-decoration: none;
 }
 
+@media screen and (max-width: 980px) {
+  header {
+    padding: 0 0 10px 0;
+    justify-content: center;
+    text-align: center;
+    align-items: stretch;
+  }
+
+  header h1 {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 50px;
+  }
+
+  header nav {
+    justify-content: center;
+  }
+
+  .page-section>h2,
+  .page-section>div {
+    flex: 0 0 100%;
+  }
+
+  .page-section>h2 {
+    border-right: none;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    text-align: left;
+    font-size: 5px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+
+  .flex-item,
+  .flex-item:first-child {
+    flex-basis: 100%;
+    text-decoration: none;
+  }
+
+  .flex-item:first-child {
+    min-height: 150px;
+  }
+
+  @media screen and (max-width: 980px) {
+
+    .plaid,
+    .glitter {
+      display: block;
+      justify-content: center;
+      text-align: center;
+      align-items: stretch;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+
+  .ytc,
+  .hire,    
+  .pastel,
+  .run-buddy   {
+  width: 100%;
+    }
+  }
+
+    .contact address {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+}
