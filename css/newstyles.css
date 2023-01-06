@@ -309,41 +309,41 @@ h3 {
   text-decoration: none;
 }
 
-.ytc:after {
-  content: "hire";
-  clear: both;
-  display: flex;
-}
+/* .ytc::after { */
+  /* content: "ytc"; */
+  /* clear: both; */
+  /* display: flex; */
+/* } */
 
-.hire {
-  justify-content: flex-end;
-  float: left;
+/* .hire { */
+  /* justify-content: flex-end; */
+  /* float: left;
   width: 100%;
   float: right;
 }
+ */
 
-
-
+/* 
 
 .hire:after {
-  content: "horiseon";
+  content: "hire";
   clear: both;
   display: table;
-}
+} */
 
 
 .horiseon {
   display: block;
-  width: 75%;
+  /* width: 75%; */
   float: left;
 }
 
 
 .run-buddy {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  /* width: 50%; */
 }
 
 
