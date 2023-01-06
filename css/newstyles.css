@@ -41,7 +41,7 @@ header {
   }
 }
 
-.glitter {
+.hero-banner {
   background-image: url(https://images.freecreatives.com/wp-content/uploads/2016/02/High-Res-Purple-Glitter-Background.jpg);
   width: 100%;
   margin: 0px;
@@ -187,6 +187,7 @@ h2 {
 
 #work {
   display: flex;
+  display: inline-grid;  
   grid-template-columns: 100px 1fr;
   color: rgb(240, 250, 216);
   text-align: center;
@@ -358,7 +359,7 @@ h3 {
 }
 
 .flex-container {
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   display: flex;
   justify-content: center;
   text-decoration: none;
@@ -459,7 +460,6 @@ h3 {
   }
 
   header h1 {
-    display: flex;
     width: 100%;
     padding: 5px;
     margin-bottom: 5px;
@@ -514,7 +514,7 @@ h3 {
     min-height: 125px;
   }
 
-  .glitter,
+  .hero-banner,
   .plaid {
     display: flex;
     align-items: center;
