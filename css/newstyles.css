@@ -176,6 +176,7 @@ h2 {
   font-weight: bold;
   padding: 27px 100px 0px 71px;
   margin: 20px;
+  justify-items: center;
 }
 
 #work {
@@ -241,7 +242,7 @@ span, .container-name {
 }
 
 .flex-item {
-  display: inline-flex;
+  display: block;
   align-items: flex-end;
   margin: 0.05em;
   padding: 0 0 18px 0;
@@ -250,7 +251,8 @@ span, .container-name {
   text-decoration: none;
   max-height: 150px;
   min-height: 150px;
-  border: 5px solid dark gray;
+  border: 5px solid dark gray;   
+  text-decoration: none;
 }
 
 .flex-item:first-child {
@@ -265,19 +267,19 @@ span, .container-name {
   text-decoration: none;
 }
 
-.flex-item h3 {
-  font-size: 40px;
-  text-decoration: none;
-}
+/* .flex-item h3 { */
+  /* font-size: 40px; */
+  /* text-decoration: none; */
+/* } */
 
 .flex-item:hover {
   background-color: gold;
 }
 
-.surf {
-  display: block;
-  max-width: 100%;
-}
+/* .surf { */
+  /* display: block; */
+  /* max-width: 100%; */
+/* } */
 
 
 
@@ -292,11 +294,6 @@ span, .container-name {
 
 
 
-.flex-item {
-  display: block;
-  padding: 5px;    
-  text-decoration: none;
-}
 
 .ytc
 {
@@ -308,27 +305,26 @@ span, .container-name {
   line-height: 0px;
 }
 
- 
+
+
 
 .horiseon
 {
   line-height: 0px;
-  margin-left: 23px;
-  padding-left: 122px;
-  flex-direction: column;
+
+
 }
 
 .future
-{
+{ 
   line-height: 0px;
-  margin: 6px 104px 0px -35px;
-  flex-direction: column;
+
 }
 
-.page-section>div {
+/* .page-section>div {
   flex: 0 0 75%;
   text-decoration: none;
-}
+} */
 
 .page-section p {
   margin-bottom: 20px;
@@ -336,17 +332,16 @@ span, .container-name {
 }
 
 .flex-container {
-  /* flex-wrap: wrap; */
   display: flex;
   justify-content: center;
   text-decoration: none;
 }
 
-.flex-container:first-child {
-  min-height: 400;
-  flex-basis: 100%;
+/* .flex-container:first-child { */
+  /* min-height: 400; */
+  /* flex-basis: 100%;
   text-decoration: none;
-}
+} */
 
 .flex-container-column {
   display: flex;
@@ -369,16 +364,8 @@ span, .container-name {
   text-decoration: none;
 }
 
-.page-section>div {
-  flex: 0 0 20%;
-  margin-right: 0px 2px 0px 0px;
-  padding: 10px;
-  text-decoration: none;
-}
-
 .page-section>h2 {
   text-align: right;
-  padding-right: 15px;
   font-size: 45px;
   text-decoration: none;
 }
@@ -390,28 +377,28 @@ span, .container-name {
   text-decoration: none;
 }
 
-.address {
-
-}
-
 .contact {
-  margin: 0px;
-  padding: 0px;
+  grid-template-columns: 100px 1fr;
+  display: inline-grid;;
+  color: rgb(240, 250, 216);
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 27px 100px 0px 71px;
+  margin: 20px;
+  justify-items: center;
+  text-decoration: none;
 }
 
 .contact address {
-  align-items: center;
   height: 100%;
   font-weight: bold;
-  display: flex;
   color: rgb(240, 250, 216);
-  flex-wrap: wrap;
-  justify-content: space-around;
   height: 100%;
   font-weight: bold;
   flex-direction: row;
-  align-content: space-around;
   padding-left: 50px;
+  margin: 55px 10px 10px 150px;
 }
 
 .contact address a {
@@ -454,10 +441,11 @@ span, .container-name {
     align-content:space-between;
   }
 
-  .page-section>h2,
-  .page-section>div {
-    flex: 0 0 100%;
+  
+  .page-section > h2 {
+  flex: 0 0 100%;
   }
+
 
   .page-section>h2 {
     border-right: none;
@@ -471,10 +459,10 @@ span, .container-name {
 
 @media screen and (max-width: 500px) {
 
-  .ytc,
-  .hire,
   .horiseon,
-  .run-buddy {
+  .future,
+  .ytc,
+  .hire {
     display: flex;
     width: 100%;
 
