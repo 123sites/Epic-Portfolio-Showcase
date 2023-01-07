@@ -16,6 +16,7 @@ h1,
 h2,
 h3 {
   margin: 0;
+  text-decoration: none;
 }
 
 header {
@@ -66,19 +67,11 @@ h1 {
   box-shadow: 0 7px 15px black;
 }
 
-.picture {
+.picture-of-me {
   display: flex;
   width: 15%;
   height: 15%;
-  padding: 20px;
-}
-
-@media screen and (max-width: 975px) {
-  header {
-    padding: 12em 12em 12em 12em;
-    justify-content: center;
-    text-align: center;
-  }
+  padding: 10px 0px 10px 75px;
 }
 
 div {
@@ -86,16 +79,16 @@ div {
 }
 
 
-.my-portfolio {
-  display: inline-flex;
+.portfolio-showcase {
   flex-direction: row;
   flex-wrap: wrap;
   align-content: space-between;
   font-family: sans-serif;
-  justify-content: flex-end;
-  margin-right: 15px;
+  justify-content: center;
+  margin-right: 35px;
   color: rgb(240, 250, 216);
-  text-align: right;
+  font-family: Nunito, sans-serif;
+  font-size: 50px;
 }
 
 .plaid {
@@ -104,7 +97,7 @@ div {
   margin: 0;
   flex-direction: row-reverse;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   background-image: url(https://tse3.mm.bing.net/th?id=OIP.tNx2RFzvYXhx2Va6uIeLwAHaEo&pid=Api);
 }
 
@@ -186,7 +179,6 @@ h2 {
 }
 
 #work {
-  display: flex;
   display: inline-grid;  
   grid-template-columns: 100px 1fr;
   color: rgb(240, 250, 216);
@@ -234,7 +226,6 @@ p {
 
 h3 {
   margin-left: 100px;
-  display: inline flex;
   color: rgb(240, 250, 216);
   font-size: 40px;
   font-weight: bold;
@@ -242,9 +233,15 @@ h3 {
   text-decoration: none;
 }
 
+span, .container-name {
+  color: rgb(240, 250, 216);
+  font-size: 35px;
+  padding: 15px;
+  text-decoration: none;
+}
 
 .flex-item {
-  display: flex;
+  display: inline-flex;
   align-items: flex-end;
   margin: 0.05em;
   padding: 0 0 18px 0;
@@ -257,19 +254,19 @@ h3 {
 }
 
 .flex-item:first-child {
-  min-height: 400px;
+  min-height: 375px;
   flex-basis: 100%;
   text-decoration: none;
 }
 
 .flex-item div {
-  padding: 0px 62px;
+  padding: 7px 50px;
   flex-direction: row;
   text-decoration: none;
 }
 
 .flex-item h3 {
-  font-size: 1.6rem;
+  font-size: 40px;
   text-decoration: none;
 }
 
@@ -279,8 +276,6 @@ h3 {
 
 .surf {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   max-width: 100%;
 }
 
@@ -295,58 +290,40 @@ h3 {
 /* padding: 5px; */
 /* } */
 
-.ytc {
-  float: left;
-  width: 100%;
-  justify-content: flex-start;
-}
 
 
 .flex-item {
-  flex: 33.33%;
-  padding: 5px;
-  float: left;
+  display: block;
+  padding: 5px;    
   text-decoration: none;
 }
 
-/* .ytc::after { */
-  /* content: "ytc"; */
-  /* clear: both; */
-  /* display: flex; */
-/* } */
-
-/* .hire { */
-  /* justify-content: flex-end; */
-  /* float: left;
-  width: 100%;
-  float: right;
-}
- */
-
-/* 
-
-.hire:after {
-  content: "hire";
-  clear: both;
-  display: table;
-} */
-
-
-.horiseon {
-  display: block;
-  /* width: 75%; */
-  float: left;
+.ytc
+{
+  line-height: 0px;
 }
 
-
-.run-buddy {
-  display: block;
-  /* margin-left: auto; */
-  /* margin-right: auto; */
-  /* width: 50%; */
+.hire
+{
+  line-height: 0px;
 }
 
+ 
 
+.horiseon
+{
+  line-height: 0px;
+  margin-left: 23px;
+  padding-left: 122px;
+  flex-direction: column;
+}
+
+.future
+{
+  line-height: 0px;
+  margin: 6px 104px 0px -35px;
+  flex-direction: column;
+}
 
 .page-section>div {
   flex: 0 0 75%;
@@ -399,13 +376,6 @@ h3 {
   text-decoration: none;
 }
 
-
-.code-name {
-  color: rgb(240, 250, 216);
-  font-size: 35px;
-  text-decoration: none;
-}
-
 .page-section>h2 {
   text-align: right;
   padding-right: 15px;
@@ -420,24 +390,35 @@ h3 {
   text-decoration: none;
 }
 
+.address {
+
+}
+
+.contact {
+  margin: 0px;
+  padding: 0px;
+}
+
 .contact address {
-  display: flex;
-  font: normal;
-  color: rgb(240, 250, 216);
-  flex-wrap: wrap;
-  justify-content: space-around;
   align-items: center;
   height: 100%;
   font-weight: bold;
+  display: flex;
+  color: rgb(240, 250, 216);
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 100%;
+  font-weight: bold;
+  flex-direction: row;
+  align-content: space-around;
+  padding-left: 50px;
 }
 
 .contact address a {
   color: rgb(240, 250, 216);
-  ;
   padding: 4px;
   font-size: 25px;
   font-style: normal;
-  display: inline-block;
   transition: all 0.20s ease-in;
   text-decoration: none;
   margin: 0 0.2rem 0.1rem;
@@ -447,7 +428,6 @@ h3 {
   color: gold;
   text-decoration: none;
 }
-
 
 @media screen and (max-width: 980px) {
   header, #myname {
@@ -495,10 +475,9 @@ h3 {
   .hire,
   .horiseon,
   .run-buddy {
+    display: flex;
     width: 100%;
-    margin: 0px;
-    padding: 0px;
-  }
+
 }
 
 @media screen and (max-width: 980px) {
@@ -524,7 +503,7 @@ h3 {
   }
 
 
-.picture {
+.picture-of-me {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -547,4 +526,14 @@ h3 {
   .column.middle {
     width: 100%;
   }
+}
+
+
+@media screen and (max-width: 975px) {
+  header {
+    padding: 12em 12em 12em 12em;
+    justify-content: center;
+    text-align: center;
+  }
+}
 }
