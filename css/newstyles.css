@@ -136,28 +136,6 @@ main {
   margin-bottom: 40px;
 }
 
-.left-side {
-  margin-left: 1rem;
-  margin-right: 1rem;
-  max-width: 90%;
-}
-
-.column {
-  float: left;
-  padding: px;
-}
-
-/* Left and right column */
-.column.side {
-  width: 25%;
-  justify-content: flex-start;
-}
-
-/* Middle column */
-.column.middle {
-  width: 50%;
-}
-
 h2 {
   display: inline flex;
   color: rgb(240, 250, 216);
@@ -267,64 +245,15 @@ span, .container-name {
   text-decoration: none;
 }
 
-/* .flex-item h3 { */
-  /* font-size: 40px; */
-  /* text-decoration: none; */
-/* } */
+
 
 .flex-item:hover {
   background-color: gold;
 }
 
-/* .surf { */
-  /* display: block; */
-  /* max-width: 100%; */
-/* } */
-
-
-
-/* .img-containner { */
-/* display: flex; */
-/* } */
-
-/* .img-column { */
-/* flex: 30%; */
-/* padding: 5px; */
-/* } */
-
-
-
-
-.ytc
-{
+.ytc, .hire, .horiseon, .future {
   line-height: 0px;
 }
-
-.hire
-{
-  line-height: 0px;
-}
-
-
-
-
-.horiseon
-{
-  line-height: 0px;
-
-
-}
-
-.future
-{ 
-  line-height: 0px;
-
-}
-
-/* .page-section>div {
-  flex: 0 0 75%;
-  text-decoration: none;
-} */
 
 .page-section p {
   margin-bottom: 20px;
@@ -336,12 +265,6 @@ span, .container-name {
   justify-content: center;
   text-decoration: none;
 }
-
-/* .flex-container:first-child { */
-  /* min-height: 400; */
-  /* flex-basis: 100%;
-  text-decoration: none;
-} */
 
 .flex-container-column {
   display: flex;
