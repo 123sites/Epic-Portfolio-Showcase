@@ -1,6 +1,6 @@
 ## ⭐ Portfolio Showcase ⭐
 
-<a name="title"></a>
+<a name="Title"></a>
 
 ## Description ✏️
 
@@ -23,6 +23,8 @@ Top of the webpage:
 ![Image text](    )
 Bottom of webpage:
 ![Image text](https://user-images.githubusercontent.com/112774966/189451529-562bd28c-5945-49be-9e33-d77c5a18b6db.png)
+[Screenshot-Image]
+<img src="" alt="Screenshot of my webpage.">
 
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
@@ -36,7 +38,7 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 ## License 📝
 
-The license is in the GitHub repository.
+The MIT license is in the GitHub repository.  <a href="https://github.com/123sites/Portfolio_Showcase/commit/732ddba936fe6d5aa29390e0b22be55d075d8956>
 
 ## Badges 🏆
 
