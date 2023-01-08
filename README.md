@@ -38,7 +38,8 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 ## License 📝
 
-The MIT license is in the GitHub repository.  <a href="https://github.com/123sites/Portfolio_Showcase/commit/732ddba936fe6d5aa29390e0b22be55d075d8956>
+The MIT license is in the GitHub repository.  
+<a href="https://github.com/123sites/Portfolio_Showcase/commit/732ddba936fe6d5aa29390e0b22be55d075d8956"></a>
 
 ## Badges 🏆
 
