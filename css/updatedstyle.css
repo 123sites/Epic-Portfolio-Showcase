@@ -66,7 +66,6 @@ header h1 {
   border-radius: 50%;
 }
 
-
 nav {
   display: flex;
   flex-direction: row;
@@ -85,7 +84,6 @@ nav a {
   background-position: bottom;
   transition: all 0.25s ease-in;
   font-size: 1.4rem;
-
 }
 
 nav a:hover {
@@ -139,7 +137,6 @@ main {
   align-content: flex-end;
   align-items:flex-end;  
 }
-
 
 .page-wrapper {
   max-width: 90%;
@@ -197,7 +194,6 @@ main {
   font-size: 0.9rem;
 }
 
-
 /* Feature first portfolio item */
 
 .flex-item:hover {
@@ -211,12 +207,6 @@ main {
   background-color: var(--secondary);
   padding: 0px
 }
-
-
-
- /* .flex-item h3 {
-  font-size: 1.6rem;
-}   */
 
 .video {
   max-width: 100%;
@@ -257,7 +247,6 @@ main {
   min-width: 725px; 
 }
 
-
 .led-wall {
   background-image: url("../images/02-portfolio-1.jpg");
   min-height: 150px;
@@ -295,7 +284,6 @@ main {
   min-width: 720px;
 }
 
-
 /* end portfolio project images */
 
 @media screen and (max-width: 975px) {
@@ -324,7 +312,6 @@ main {
   justify-content: center;
 }
 
-
 /* Navbar links */
 nav a {
   float: left;
@@ -345,8 +332,6 @@ nav a {
     padding: 0px;
   }
 }
-    /* justify-content: center;
-  } */
 
 body {
   float: none;
@@ -371,7 +356,6 @@ body {
   }
 }
 
-
 @media screen and (max-width: 768px) {
 
   .page-wrapper {
@@ -379,6 +363,7 @@ body {
     margin-top: 0px;
     padding-top: 0px;
   }
+
   .flex-item,
   .flex-item:first-child {
     flex-basis: 100%;
