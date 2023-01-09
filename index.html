@@ -12,45 +12,41 @@
         rel="stylesheet" />
 
     <link rel="stylesheet" href="./css/reset.css" />
-    <!-- <link rel="stylesheet" href="./css/style.css" /> -->
-    <link rel="stylesheet" href="./css/newstyles.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- <link rel="stylesheet" href="./css/newstyles.css" /> -->
 </head>
 
 <body>
     <!--Top of webpage and banner...I wanted my own style-->
-    <header class="hero-banner" id class=>
-        <div>
-            <h1 id="my-name">Michele Freitas</h1>
-        </div>
+    <header class="hero-banner">
+        <h1 id="my-name">Michele Freitas</h1>
+        <!--nav links-->
+        <nav class="nav a">
+            <a href="#about">About Me</a>
+            <a href="#work">Work</a>
+            <a href="#contact">Contact Me</a>
+            <a href="#ytc">My YouTube</a>
+            <a href="https://docs.google.com/document/d/1vxWBiITglp_ZttJu2Z9qjYPoOyn2OuyF80apYylaio4/edit?usp=sharing"
+                target="blank">Resume</a>
+        </nav>
         <!--Image of me-->
         <div class="picture-of-me">
-            <div>
-                <img src="assets/images/Image of Me.png" width="160" height="100" />
-            </div>
+            <img src="assets/images/Image of Me.png">
         </div>
-        <div>
-            <!--nav links-->
-            <nav class="nav a">
-                <a href="#about">About Me</a>
-                <a href="#work">Work</a>
-                <a href="#contact">Contact Me</a>
-                <a href="#ytc">My YouTube</a>
-                <a href="https://docs.google.com/document/d/1vxWBiITglp_ZttJu2Z9qjYPoOyn2OuyF80apYylaio4/edit?usp=sharing"
-                    target="blank">Resume</a>
-            </nav>
-
     </header>
     <!-- Plaid banner ...I wanted my own style. -->
     <section class="plaid">
         <div>
-            <h2>Portfolio Showcase</h2>
+            <h2 class="showcase">&#10024; Portfolio Showcase &#10024;<h2>
         </div>
     </section>
     <main class="left-side">
         <!--About me-->
-        <section class="page-section" id="about">
+        <section class="page-section">
             <h2>About Me</h2>
-            <div class="vl">
+            <!-- About vertical line -->
+            <div class="vl" id="about">
+
                 <p>
                     I am a volunteer hiking guide, research genealogy, including DNA analysis.
                     I have my own YouTube channel called, "Azores Travel & Genealogy."
@@ -62,101 +58,100 @@
                     Below, you will see examples of some of my work, link to my YouTube Channel, and video that gives
                     you three reasons why you should hire me!
                 </p>
+
             </div>
         </section>
         <!-- Portfolio container -->
         <section class="page-section" id="work">
             <h2>Work</h2>
+            <!-- First work vertical line -->
             <div class="vl">
-                <div class="flex-container-column">
+                <div class="flex-item">
                     <!-- Main image -->
                     <a href="https://github.com/123sites" target="blank">
-                        <div class="container-name">
+                        <div class="container-name surf-image">
                             <h3>Surf Report</h3>
                             <span>MERN Stack</span>
-                            <div class="surf">
-                                <img src="assets/images/02-portfolio-4.jpg"
-                                    alt="A man looking out at the ocean and link to my GitHub, as a placeholder."
-                                    style="width:75%" />
+                            <div>
+                                <img class="first-image" src="assets/images/02-portfolio-4.jpg"
+                                    alt="A man looking out at the ocean and link to my GitHub, as a placeholder."/>
+                            </div><!-- image div -->
+                        </div> <!-- container div -->
+                    </a> <!-- link div -->
+                </div><!-- flex div -->
+                <!-- Smaller images, first 2 -->
+                <div>
+                    <div>
+                        <a href="https://www.youtube.com/channel/UCMNe2clJI6nf-rmXoVg01xw" target="blank">
+                            <div class="flex-item container-name" id="ytc">
+                                <h3>Other Technology Skills</h3>
+                                <span>Link to My YouTube</span>
+                                <div>
+                                    <!-- LED Picture -->
+                                    <img class="ytc" src="assets/images/02-portfolio-1.jpg"
+                                        alt="Link to Michele Freitas' YouTube Channel" />
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- 4 Smaller images -->
-                <div class="flex-container">
-                    <a href="https://www.youtube.com/channel/UCMNe2clJI6nf-rmXoVg01xw" target="blank">
-                        <div class="flex-item container-name">
-                            <h3>Other Technology Skills</h3>
-                            <span>Link to My YouTube</span>
-                        </div>
-                        <div>
-                            <!-- LED Picture -->
-                            <img class="ytc" src="assets/images/02-portfolio-1.jpg"
-                                alt="Link to Michele Freitas' YouTube Channel" width="325" height="225" />
-                        </div>
-                    </a>
-
+                        </a>
+                    </div>
+                    <div>
                     <a href="https://youtu.be/E-tLss3zecY" target="blank">
                         <div class="flex-item container-name">
                             <h3>Why You Should Hire Me</h3>
                             <span>Video Link</span>
-                        </div>
-                        <div>
-                            <!-- Video Picture -->
-                            <img class="hire" src="assets/images/Image of Me.png" alt="Image of Michele Freitas."
-                                width="350" />
-                        </div>
-                    </a>
+                            <div>
+                                <!-- Video Picture -->
+                                <img class="hire" src="assets/images/Image of Me.png" alt="Image of Michele Freitas.">
+                            </div>
+                        </div> <!-- container div -->
+                   
+                    </a> <!-- link div -->
                 </div>
-
-
-                <div class="flex-container">
+                </div><!-- flex container div -->
+                <!-- Last 2 images -->
+                <div>
                     <a href="https://123sites.github.io/Horiseon_Webpage_Challenge/" target="blank">
                         <div class="flex-item container-name">
                             <h3>Horiseon Webpage</h3>
                             <span>Redesign</span>
+                            <!-- Pastel Picture -->
+                            <div>
+                                <img class="horiseon" src="assets/images/02-portfolio-3.jpg"
+                                    alt="Two triangles, pastel-colored, with a light blue car." />
+                            </div>
                         </div>
-                        <!-- Pastel Picture -->
-                        <div>
-                            <img class="horiseon" src="assets/images/02-portfolio-3.jpg"
-                                alt="Two triangles, pastel-colored, with a light blue car." width="360" height="245" />
-                        </div>
+                    </a>
+                
+                    <div>
+                        <a href="https://github.com/123sites" target="blank">
+                            <div class="flex-item container-name">
+                                <h3>Future Project</h3>
+                                <span>HTML/CSS</span>
+                                <!-- Run Buddy Picture -->
+                                <div>
+                                    <img class="future" src="assets/images/02-run-buddy.jpg"
+                                        alt="Image of the run-buddy" />
+                                </div>
+                            </div> 
+                        </a>
+                    </div>
                 </div>
-            </div>
-            </a>
-
-            <a href="https://github.com/123sites" target="blank">
-                <div class="flex-item container-name">
-                    <h3>Future Project</h3>
-                    <span>HTML/CSS</span>
-                </div>
-                <div>
-                    <!-- Run Buddy Picture -->
-                    <img class="future" src="assets/images/02-run-buddy.jpg"
-                        alt="Image of the run-buddy website with a person tying their shoe and a get started to today reply box."
-                        width="360" height="245" />
-                </div>
-                </div>
-            </a>
-            </div>
-            </div>
-
-
         </section>
         <!-- Contact-->
         <section>
-            <section class="page-section contact">
+            <section class="page-section" id="contact">
                 <h2>Contact Me</h2>
                 <div class="vl">
-                    <address>
-                        <a href="tel:+15555555555" target="blank">520-555-5555</a>
-                        <a href="mailto:cfreitas12345@gmail.com" target="blank">cfreitas12345@gmail.com</a>
-                        <a href="https://github.com/123sites" target="blank">GitHub</a>
-                        <a href="https://twitter.com/freitaschel" target="blank">Twitter</a>
-                        <a href="https://www.linkedin.com/in/ch-f-7a2a46258?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BKH9WnUg9SB6eTkt8IQ0CcA%3D%3D"
-                            target="blank">Linkedin</a>
-                    </address>
+                    <div class="contact">
+                        <address>
+                            <a href="tel:+15555555555" target="blank">520-555-5555</a>
+                            <a href="mailto:cfreitas12345@gmail.com" target="blank">cfreitas12345@gmail.com</a>
+                            <a href="https://github.com/123sites" target="blank">GitHub</a>
+                            <a href="https://twitter.com/freitaschel" target="blank">Twitter</a>
+                            <a href="https://www.linkedin.com/in/ch-f-7a2a46258?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BKH9WnUg9SB6eTkt8IQ0CcA%3D%3D"
+                                target="blank">Linkedin</a>
+                        </address>
+                    </div>
                 </div>
             </section>
         </section>
