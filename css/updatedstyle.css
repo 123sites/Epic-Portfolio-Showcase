@@ -210,6 +210,10 @@ main {
   font-size: 1.6rem;
 }
 
+.video {
+  max-width: 100%;
+}
+
 .contact address {
   display: flex;
   flex-wrap: wrap;
