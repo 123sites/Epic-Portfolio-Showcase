@@ -1,7 +1,5 @@
 ## ⭐ Portfolio Showcase ⭐
 
-<a name="Title"></a>
-
 ## Description ✏️
 
 This is a portfolio the shows what I can do with coding.  I gathered evidence over time during the Full-Stack computer coding boot camp I completed.  For this project, I added my own style and added a video I created.
@@ -9,16 +7,16 @@ This is a portfolio the shows what I can do with coding.  I gathered evidence ov
 ## Installation 🔑
 
 There weren't any installations with this project.  You can find the link to the repository at:
-<a href="https://github.com/123sites?tab=repositories"></a>
+[Repository link](https://github.com/123sites?tab=repositories)
 
 The link to the Portfolio Showcase is at:
-<a href="https://github.com/123sites/Portfolio_Showcase.git"></a>
+[Epic Portfolio Showcase link](https://github.com/123sites/Portfolio_Showcase.git)
 
 ## Screenshots 🎯
 
-![alt="laptop-screenshot"] <img src="assets/images/Screenshot With Laptop View.png">
+![Laptop-screenshot] <img src="assets/images/Screenshot With Laptop View.png">
 
-![alt="reponsive-screenshot"] <img src="assets/images/responsive screenshot.png">
+![Reponsive-screenshot] <img src="assets/images/responsive screenshot.png">
 
 ## Credits 👈
 
