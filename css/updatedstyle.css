@@ -103,7 +103,7 @@ main {
 
 .hero-banner {
   background: rgb(68, 88, 120);
-  background-image: url(../images/02-hero-bg.jpg), linear-gradient(209deg, var(--secondary) 0%, var(--primary) 100%);
+  background-image: linear-gradient(209deg, var(--secondary) 0%, var(--primary) 100%);
   background-size: cover;
   background-position: center;
   background-blend-mode: soft-light;
@@ -212,9 +212,6 @@ main {
 .video {
   max-width: 100%;
 }
-
-
-
 
 .contact address {
   display: flex;
