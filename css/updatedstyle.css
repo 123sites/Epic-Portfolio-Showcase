@@ -4,10 +4,10 @@
 
 /* brand color palette */
 :root {
-  --primary: rgba(68, 88, 119, 1);
-  --secondary: rgba(146, 204, 206, 1);
-  --tertiary: rgba(49, 52, 61, 1);
-  --dark: rgba(28, 29, 33, 1);
+  --primary: rgb(41, 15, 156);
+  --secondary: rgb(9, 125, 7);
+  --tertiary: rgb(231, 182, 48);
+  --dark: rgb(48, 7, 92);
   --light: rgba(238, 238, 247, 1);
 }
 
@@ -41,7 +41,7 @@ header {
   flex-wrap: wrap;
   align-items: center;
   background-color: var(--tertiary);
-  box-shadow: 0 5px 35px rgba(146, 204, 206, 0.4);
+  box-shadow: 0 5px 35px rgba(7, 31, 151, 0.4);
 }
 
 header h1 {
@@ -88,7 +88,7 @@ main {
 
 .hero-banner {
   background: rgb(68, 88, 120);
-  background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+  /* background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%); */
   background-size: cover;
   background-position: center;
   background-blend-mode: soft-light;
