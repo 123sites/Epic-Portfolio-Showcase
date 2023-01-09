@@ -34,10 +34,10 @@ h6 {
 }
 
 h3 {
-font-family: Nunito, sans-serif;
-text-decoration: none;
-font-weight: bold;
-margin-left: 10px;
+  font-family: Nunito, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 10px;
 }
 
 p {
@@ -109,7 +109,7 @@ main {
   background-blend-mode: soft-light;
   min-height: 32vh;
   color: var(--light);
-  padding: 3% 7%;
+  padding: 2% 4%;
   display: flex;
   align-items: flex-end;
   text-align: right;
@@ -136,7 +136,7 @@ main {
   display: flex;
   padding: 0px;
   margin: 0px 0px 15px 201px;
-  align-items:flex-end;  
+  align-items: flex-end;
 }
 
 .page-wrapper {
@@ -155,7 +155,7 @@ main {
   justify-content: space-between;
 }
 
-.page-section > h2 {
+.page-section>h2 {
   flex: 0 0 20%;
   text-align: right;
   padding-right: 15px;
@@ -164,7 +164,7 @@ main {
   line-height: 1.1;
 }
 
-.page-section > div {
+.page-section>div {
   flex: 0 0 77%;
 }
 
@@ -213,6 +213,9 @@ main {
   max-width: 100%;
 }
 
+
+
+
 .contact address {
   display: flex;
   flex-wrap: wrap;
@@ -245,32 +248,32 @@ main {
 .run-buddy {
   background-image: url("../images/02-run-buddy.jpg");
   min-height: 150px;
-  min-width: 725px; 
+  min-width: 725px;
 }
 
 .led-wall {
   background-image: url("../images/02-portfolio-1.jpg");
   min-height: 150px;
-  min-width: 725px; 
+  min-width: 725px;
 }
 
 .react-calc {
   background-image: url("../images/02-portfolio-2.jpg");
 
   min-height: 150px;
-  min-width: 725px; 
+  min-width: 725px;
 }
 
 .pastel-puzzles {
   background-image: url("../images/02-portfolio-3.jpg");
   min-height: 150px;
-  min-width: 725px; 
+  min-width: 725px;
 }
 
 .surf-report {
   background-image: url("../images/02-portfolio-4.jpg");
   min-height: 150px;
-  min-width: 725px; 
+  min-width: 725px;
 }
 
 .horiseon {
@@ -303,51 +306,51 @@ main {
   }
 
   header nav {
-    /* The navbar container */ 
-  overflow: hidden;
-  background-color: #3e4b93;
-}
-
-.picture-of-me {
-  max-width: 500px;
-  justify-content: center;
-}
-
-/* Navbar links */
-nav a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 10px;
-}
-
-/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  nav a {
-    float: none;
-    width: 100%;
-    max-width: fit-content;
-    padding: 0px;
+    /* The navbar container */
+    overflow: hidden;
+    background-color: #3e4b93;
   }
-}
 
-body {
-  float: none;
-  width: 191%;
-  max-width: fit-content;
-  padding: 5px;
-  font-size: 10px;
-}
-  
-  .page-section > h2,
-  .page-section > div {
+  .picture-of-me {
+    max-width: 500px;
+    justify-content: center;
+  }
+
+  /* Navbar links */
+  nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 10px;
+  }
+
+  /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    nav a {
+      float: none;
+      width: 100%;
+      max-width: fit-content;
+      padding: 0px;
+    }
+  }
+
+  body {
+    float: none;
+    width: 191%;
+    max-width: fit-content;
+    padding: 5px;
+    font-size: 10px;
+  }
+
+  .page-section>h2,
+  .page-section>div {
     flex: 0 0 100%;
   }
 
-  .page-section > h2 {
+  .page-section>h2 {
     border-right: none;
     border-bottom: 2px solid var(--primary);
     margin-bottom: 5px;
