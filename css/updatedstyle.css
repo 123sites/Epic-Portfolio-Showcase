@@ -57,13 +57,13 @@ header {
 header h1 {
   color: var(--tertiary);
   background-color: var(--secondary);
-  border-radius: 60%;
-  padding: 29px 9% 28px 8%;
+  padding: 3px 3% 3px 4%;
   margin: 0px;
   font-size: 4vw;
   line-height: 1.5;
   font-family: Nunito, sans-serif;
   font-weight: bold;
+}
 }
 
 nav {
@@ -299,21 +299,44 @@ main {
 
 @media screen and (max-width: 975px) {
   header {
-    padding: 0 0 10px 0;
+    padding: 0px;
     justify-content: center;
     text-align: center;
   }
 
   header h1 {
-    width: 100%;
+    width: 200%;
     padding: 5px;
     margin-bottom: 10px;
     font-size: 5px;
   }
 
   header nav {
-    justify-content: center;
+    /* The navbar container */ 
+  overflow: hidden;
+  background-color: #3e4b93;
+}
+
+/* Navbar links */
+nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  nav a {
+    float: none;
+    width: 100%;
   }
+}
+    /* justify-content: center;
+  } */
 
   .page-section > h2,
   .page-section > div {
