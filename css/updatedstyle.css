@@ -297,7 +297,7 @@ main {
 
 /* end portfolio project images */
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 975px) {
   header {
     padding: 0 0 10px 0;
     justify-content: center;
@@ -308,7 +308,7 @@ main {
     width: 100%;
     padding: 5px;
     margin-bottom: 10px;
-    font-size: 10vw;
+    font-size: 5px;
   }
 
   header nav {
@@ -337,7 +337,7 @@ main {
   }
 
   .flex-item:first-child {
-    min-height: 150px;
+    min-height: px;
   }
 
   .hero-banner {
