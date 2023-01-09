@@ -109,16 +109,18 @@ main {
   background-blend-mode: soft-light;
   min-height: 32vh;
   color: var(--light);
-  padding: 2% 4%;
+  padding: 1% 2%;
   display: flex;
   align-items: flex-end;
   text-align: right;
   font-family: Nunito, sans-serif;
   font-weight: bold;
+  width: 100%;
 }
 
+
 .hero-banner div {
-  flex: 0 0 95%;
+  flex: 0 0 90%;
 }
 
 .hero-banner h2 {

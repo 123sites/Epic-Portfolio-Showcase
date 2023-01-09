@@ -14,23 +14,11 @@ https://github.com/123sites?tab=repositories
 The link to the Portfolio Showcase is at:
 https://github.com/123sites/Portfolio_Showcase.git
 
-## Screenshot 🎯
+## Screenshots 🎯
 
-Top of the webpage:
+![alt="laptop-screenshot"] <img src="assets/images/Screenshot With Laptop View.png">
 
-Bottom of the webpage:
-Top of the webpage:
-![Image text](    )
-Bottom of webpage:
-![Image text](https://user-images.githubusercontent.com/112774966/189451529-562bd28c-5945-49be-9e33-d77c5a18b6db.png)
-[Screenshot-Image]
-<img src="" alt="Screenshot of my webpage.">
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+![alt="reponsive-screenshot"] <img src="assets/images/responsive screenshot.png">
 
 ## Credits 👈
 
