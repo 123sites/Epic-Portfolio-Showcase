@@ -63,8 +63,9 @@ header h1 {
   line-height: 1.5;
   font-family: Nunito, sans-serif;
   font-weight: bold;
+  border-radius: 50%;
 }
-}
+
 
 nav {
   display: flex;
@@ -74,7 +75,7 @@ nav {
 
 nav a {
   text-decoration: none;
-  padding: 10px 15px;
+
   color: var(--secondary);
   margin-right: 15px;
   margin-left: 18px;
@@ -305,10 +306,11 @@ main {
   }
 
   header h1 {
-    width: 200%;
-    padding: 5px;
+    width: 100%;
+    padding: 0px;
     margin-bottom: 10px;
-    font-size: 5px;
+    font-size: 40px;
+    height: 100%;
   }
 
   header nav {
@@ -316,6 +318,12 @@ main {
   overflow: hidden;
   background-color: #3e4b93;
 }
+
+.picture-of-me {
+  max-width: 500px;
+  justify-content: center;
+}
+
 
 /* Navbar links */
 nav a {
@@ -333,11 +341,21 @@ nav a {
   nav a {
     float: none;
     width: 100%;
+    max-width: fit-content;
+    padding: 0px;
   }
 }
     /* justify-content: center;
   } */
 
+body {
+  float: none;
+  width: 191%;
+  max-width: fit-content;
+  padding: 5px;
+  font-size: 10px;
+}
+  
   .page-section > h2,
   .page-section > div {
     flex: 0 0 100%;
@@ -345,31 +363,41 @@ nav a {
 
   .page-section > h2 {
     border-right: none;
-    border-bottom: 4px solid var(--primary);
-    margin-bottom: 20px;
-    padding-bottom: 10px;
+    border-bottom: 2px solid var(--primary);
+    margin-bottom: 5px;
+    padding-bottom: 5px;
     text-align: left;
-    font-size: 7vw;
+    font-size: 6vw;
   }
 }
 
+
 @media screen and (max-width: 768px) {
+
+  .page-wrapper {
+    max-width: 96%;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
   .flex-item,
   .flex-item:first-child {
     flex-basis: 100%;
   }
 
-  .flex-item:first-child {
-    min-height: px;
+  .flex-item {
+    min-height: 300px;
+    max-width: 300px;
+    padding-right: 25px;
   }
 
   .hero-banner {
     justify-content: center;
     text-align: center;
+    margin: 17px;
   }
 
   .contact address {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
   }
 }
