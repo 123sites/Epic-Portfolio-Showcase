@@ -10,7 +10,7 @@ There weren't any installations with this project.  You can find the link to the
 [Repository link](https://github.com/123sites?tab=repositories)
 
 The link to the Portfolio Showcase is at:
-[Epic Portfolio Showcase link](https://github.com/123sites/Portfolio_Showcase.git)
+[Epic Portfolio Showcase link](https://github.com/123sites/Epic_Portfolio_Showcase.git)
 
 ## Screenshots 🎯
 
