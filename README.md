@@ -9,10 +9,10 @@ This is a portfolio the shows what I can do with coding.  I gathered evidence ov
 ## Installation 🔑
 
 There weren't any installations with this project.  You can find the link to the repository at:
-https://github.com/123sites?tab=repositories
+<a href="https://github.com/123sites?tab=repositories"></a>
 
 The link to the Portfolio Showcase is at:
-https://github.com/123sites/Portfolio_Showcase.git
+<a href="https://github.com/123sites/Portfolio_Showcase.git"></a>
 
 ## Screenshots 🎯
 
