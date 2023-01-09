@@ -189,6 +189,7 @@ main {
   font-size: 0.9rem;
 }
 
+
 /* feature first portfolio item */
 .flex-item:first-child {
     min-height: 400px;
@@ -196,10 +197,11 @@ main {
 }
 
 .flex-item:hover {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(224, 227, 34, 0.3);
 }
 
 .flex-item div {
+  display: flex;
   background-color: var(--secondary);
   padding: 8px 10px;
 }
@@ -228,7 +230,7 @@ main {
   background-position: bottom;
   transition: all 0.25s ease-in;
   margin: 0 0.2rem 0.1rem;
-  display: inline-block;
+  display: flex;
 }
 
 .contact address a:hover {
@@ -240,6 +242,7 @@ main {
 .run-buddy {
   background-image: url("../images/02-run-buddy.jpg");
 }
+
 
 .led-wall {
   background-image: url("../images/02-portfolio-1.jpg");
