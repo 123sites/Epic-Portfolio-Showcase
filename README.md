@@ -2,7 +2,7 @@
 
 ## Description ✏️
 
-This is a portfolio the shows what I can do with coding.  I gathered evidence over time during the Full-Stack computer coding boot camp I completed.  For this project, I added my own style and added a video I created.
+This is a portfolio the shows what I can do with coding.  I gathered evidence over time during the Full-Stack computer coding boot camp I completed.  For this project, I added my own style and added a video I created.  I added a 555-5555 phone number and email for now. 
 
 ## Installation 🔑
 
