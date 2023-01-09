@@ -284,14 +284,16 @@ main {
 
 .horiseon {
   background-image: url("../assets/images/Horiseon.png");
-  min-height: 150px;
-  min-width: 725px; 
+  min-height: 100px;
+  min-width: 720px;
 }
 
-img {
-  min-height: 100px;
-  min-width: 400px;
+.ytc {
+  background-image: url("../assets/images/ATandG.png");
+  min-height: 123px;
+  min-width: 720px;
 }
+
 
 /* end portfolio project images */
 
