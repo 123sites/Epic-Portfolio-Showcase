@@ -4,9 +4,9 @@
 
 /* brand color palette */
 :root {
-  --primary: rgb(41, 15, 156);
-  --secondary: rgb(9, 125, 7);
-  --tertiary: rgb(231, 182, 48);
+  --primary: rgb(56, 13, 124);
+  --secondary: rgb(241, 241, 243);
+  --tertiary: rgb(27, 44, 172);
   --dark: rgb(48, 7, 92);
   --light: rgba(238, 238, 247, 1);
 }
@@ -14,7 +14,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: Nunito, sans-serif;
   color: var(--primary);
   background-color: var(--light);
   line-height: 1.5;
@@ -41,12 +41,13 @@ header {
   flex-wrap: wrap;
   align-items: center;
   background-color: var(--tertiary);
-  box-shadow: 0 5px 35px rgba(7, 31, 151, 0.4);
+  box-shadow: 0 5px 35px rgba(146, 204, 206, 0.4);
 }
 
 header h1 {
   color: var(--tertiary);
   background-color: var(--secondary);
+
   padding: 5px 1% 5px 6%;
   margin: 0;
   font-size: 4vw;
@@ -88,7 +89,7 @@ main {
 
 .hero-banner {
   background: rgb(68, 88, 120);
-  /* background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%); */
+  background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
   background-size: cover;
   background-position: center;
   background-blend-mode: soft-light;
@@ -113,6 +114,10 @@ main {
   font-size: 2.3rem;
   line-height: 1.2;
   display: inline;
+}
+.picture-of-me {
+  display: flex;
+  padding: 1px 0px 44px 10px;
 }
 
 .page-wrapper {
