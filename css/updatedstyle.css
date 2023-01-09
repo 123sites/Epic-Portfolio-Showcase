@@ -183,8 +183,7 @@ main {
   border: 5px solid var(--secondary);
   background-color: var(--primary);
   color: var(--tertiary);
-  min-height: 150px;
-  max-height: 150px;
+  max-height: 175px;
   flex-basis: calc(50% - 1em);
   display: flex;
   align-items: flex-end;
@@ -214,9 +213,9 @@ main {
 
 
 
-/* .flex-item h3 {
+ /* .flex-item h3 {
   font-size: 1.6rem;
-} */
+}   */
 
 .video {
   max-width: 100%;
@@ -281,6 +280,17 @@ main {
   background-image: url("../images/02-portfolio-4.jpg");
   min-height: 150px;
   min-width: 725px; 
+}
+
+.horiseon {
+  background-image: url("../assets/images/Horiseon.png");
+  min-height: 150px;
+  min-width: 725px; 
+}
+
+img {
+  min-height: 100px;
+  min-width: 400px;
 }
 
 /* end portfolio project images */
