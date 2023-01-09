@@ -135,8 +135,7 @@ main {
 .picture-of-me {
   display: flex;
   padding: 0px;
-  margin: 0px;
-  align-content: flex-end;
+  margin: 0px 0px 15px 201px;
   align-items:flex-end;  
 }
 
