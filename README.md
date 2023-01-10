@@ -14,9 +14,9 @@ The link to the Portfolio Showcase is at:
 
 ## Screenshots 🎯
 
-![Laptop-screenshot] <img src="assets/images/Screenshot With Laptop View.png">
+<img src="assets/images/Screenshot With Laptop View.png">
 
-![Reponsive-screenshot] <img src="assets/images/responsive screenshot.png">
+<img src="assets/images/responsive screenshot.png">
 
 ## Credits 👈
 
@@ -25,7 +25,7 @@ The link to the Portfolio Showcase is at:
 ## License 📝
 
 The MIT license is in the GitHub repository.  
-[MIT License](https://github.com/123sites/Portfolio_Showcase/commit/732ddba936fe6d5aa29390e0b22be55d075d8956)></a>
+[MIT License](https://github.com/123sites/Portfolio_Showcase/commit/732ddba936fe6d5aa29390e0b22be55d075d8956)
 
 ## Badges 🏆
 
